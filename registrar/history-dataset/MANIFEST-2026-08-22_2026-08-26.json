@@ -1,0 +1,59 @@
+{
+  "dataset_id": "NMG-GLASSBOX-HISTORY-2026-0822-0826-001",
+  "dataset_status": "GENERATED_FROM_WORKING_FILES",
+  "coverage": {
+    "start": "2026-08-22",
+    "end": "2026-08-26"
+  },
+  "event_count": 2067,
+  "counts_by_date": {
+    "2026-08-22": 325,
+    "2026-08-23": 145,
+    "2026-08-24": 583,
+    "2026-08-25": 601,
+    "2026-08-26": 413
+  },
+  "source_files": [
+    {
+      "source_file": "Pasted markdown (2).md",
+      "coverage": "2026-08-22 through 2026-08-24",
+      "sha256": "38146eaff06b4ec68f3404c6a78b107f4961030a37290a4636c5f402d9e5f9e9",
+      "line_count": 8456
+    },
+    {
+      "source_file": "Pasted markdown.md",
+      "coverage": "2026-08-25 through 2026-08-26",
+      "sha256": "1799e231820c984d3e01fbc2bba03bc427f27218f60dd11333ac4684cec76a67",
+      "line_count": 8126
+    }
+  ],
+  "event_generation": {
+    "semantic_interpretation_used": false,
+    "date_rule": "Take date only from an exact bold weekday/date heading in the working file.",
+    "time_rule": "Take time only from an exact hh:mm AM/PM timestamp line.",
+    "link_rule": "Associate the next Markdown bold-link before another date/time begins within the browser-export structural window.",
+    "preserved_fields": [
+      "source_file",
+      "source_file_sha256",
+      "source_line_time",
+      "source_line_link",
+      "date",
+      "time_local",
+      "timestamp_local",
+      "title_exact",
+      "url_exact_markdown",
+      "displayed_domain_exact",
+      "tooltip_exact",
+      "raw_link_line_exact"
+    ],
+    "derived_fields": [
+      "url_normalized_markdown_escapes_only",
+      "hostname_derived",
+      "source_kind_derived"
+    ],
+    "default_validation_state": "HISTORY_EVENT_UNVALIDATED",
+    "default_promotion_state": "NOT_PROMOTED"
+  },
+  "authority_rule": "The row-level dataset generated from the working history files is the canonical historical event layer. Narrative batch summaries are derivative indexes only and may not substitute for, add to, or alter the extracted event record.",
+  "non_deletion_rule": "Correction, invalidation, or supersession changes disposition and links; it does not delete the historical event row."
+}
