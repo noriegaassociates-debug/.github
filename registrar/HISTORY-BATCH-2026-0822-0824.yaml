@@ -1,0 +1,90 @@
+batch_id: NMG-HIST-2026-0822-0824-001
+object_class: HISTORY_BATCH
+status: HISTORICAL
+coverage:
+  start: 2026-08-22
+  end: 2026-08-24
+custody:
+  raw_evidence_location: CONTROLLED-VAULT
+  public_repository_scope: SANITIZED-METADATA-ONLY
+  note: Raw browser-history URLs, local paths, session-bearing links, and account-context links remain outside the public registrar.
+validation:
+  purpose: GLASSBOX-HISTORY
+  historical_record_is_verified_claim: false
+  engine_output_is_oracle: false
+  notebook_entry_is_source_authority: false
+  deletion_policy: NON-DELETION-SUPERSESSION-ONLY
+
+observed_domains:
+  - critical-infrastructure instrumentation and metrology
+  - sensor, MEMS, micro-opto-electromechanical, laser, and superconducting patent lineage
+  - geospatial mapping, GPS-denied navigation, lidar, hyperspectral, and remote-sensing research
+  - North Carolina geology, mineral resources, core/cuttings/well-log collections, permitting, and mining forms
+  - USGS geologic, geochemical, mineral-information, lidar, ScienceBase, and collection resources
+  - NASA Earthdata / lidar / airborne-imaging research
+  - remote-sensing literature ingestion and local article review
+  - repository and upstream-fork inspection
+  - VERITAS MINERALIS / Mitchell County research
+  - notebook and engine-interaction history
+
+notebook_log_nodes:
+  - title: DUAL MODAL™ — Critical Infrastructure Instrumentation, Metrology, Trust & Physical Systems Architecture
+    class: ARCHITECTURE-NOTEBOOK
+    observed_date: 2026-08-23
+    disposition: HISTORICAL-INDEXED
+  - title: Generation of pulsed laser radiation at a finely controlled frequency by transient regenerative amplification
+    class: SOURCE-INGESTION-NOTEBOOK
+    observed_date: 2026-08-22
+    disposition: HISTORICAL-INDEXED
+  - title: State Geologic Map Compilation (SGMC) Geodatabase
+    class: DATASET-NOTEBOOK
+    observed_date: 2026-08-24
+    disposition: HISTORICAL-INDEXED
+  - title: GNES-1 Planetary Rotational Budget and Geophysical Variable Analysis
+    class: ARCHITECTURE-NOTEBOOK
+    observed_date: 2026-08-24
+    disposition: HISTORICAL-INDEXED
+  - title: Simulating Aerodynamics for the Space Launch System
+    class: SOURCE-INGESTION-NOTEBOOK
+    observed_date: 2026-08-24
+    disposition: HISTORICAL-INDEXED
+  - title: Gemini Notebook / engine interaction records
+    class: ENGINE-INTERACTION-LOG
+    observed_date: 2026-08-22/24
+    disposition: HISTORICAL-INDEXED
+
+source_clusters:
+  - cluster_id: HIST-0822-REMOTE-SENSING
+    description: Remote-sensing, GNSS, hyperspectral, 3D mapping, lidar, and atmospheric/ocean-color literature review.
+    authority_state: HISTORY-EVENTS-NOT-YET-PROMOTED
+  - cluster_id: HIST-0823-METROLOGY-MAPPING
+    description: Critical-infrastructure instrumentation, metrology, mapping-radar, GPS-denied navigation, and related patent research.
+    authority_state: HISTORY-EVENTS-NOT-YET-PROMOTED
+  - cluster_id: HIST-0824-NC-GEOSCIENCE
+    description: NC DEQ / NCGS / USGS geology, mineral resources, lidar, collections, permit forms, and ScienceBase data investigation.
+    authority_state: HISTORY-EVENTS-NOT-YET-PROMOTED
+  - cluster_id: HIST-0824-SENSOR-PATENT-LINEAGE
+    description: Sensor, MEMS, micro-opto-electromechanical, superconducting, capacitor, laser, and switching patent-lineage research.
+    authority_state: HISTORY-EVENTS-NOT-YET-PROMOTED
+
+history_edges:
+  - from: BROWSER-HISTORY
+    to: NOTEBOOK-LOG
+    relation: CONTEXT-FOR-RESEARCH-SESSION
+  - from: NOTEBOOK-LOG
+    to: SOURCE-CLUSTER
+    relation: SOURCE-APERTURE
+  - from: SOURCE-CLUSTER
+    to: FUTURE-REGISTERED-OBJECT
+    relation: REQUIRES-SOURCE-REVIEW-AND-AUTHORITY-CHECK
+
+prohibited_promotions:
+  - visited URL -> verified scientific claim
+  - notebook title -> external-source authority
+  - engine interaction -> physical validation
+  - patent search result -> patent relevance or freedom-to-operate conclusion
+  - government webpage visit -> endorsement or contract authority
+  - repository visit or fork -> authorship or license expansion
+
+notes: >-
+  This batch extends the Glassbox chronology backward to 2026-08-22. It preserves the research path and notebook/log context while requiring separate promotion records for sources, datasets, patents, repositories, licenses, measurements, or architectures.
