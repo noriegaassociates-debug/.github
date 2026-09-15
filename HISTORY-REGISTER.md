@@ -47,7 +47,7 @@ None of these states authorize deletion of the underlying historical evidence.
 
 ## Public / private evidence separation
 
-The registrar uses a two-layer custody model:
+The registrar uses a two-layer custody model.
 
 ### Layer A — Private evidence vault
 
@@ -57,24 +57,11 @@ Raw evidence remains in its controlled source location and should not be copied 
 
 ### Layer B — Public registrar index
 
-Contains only the minimum public-safe metadata required to establish chronology and provenance:
-
-- registrar ID;
-- date / time window;
-- source class;
-- sanitized title or domain;
-- research domain;
-- upstream institution or publisher where relevant;
-- public source URL when safe and useful;
-- evidence-vault pointer or hash when available;
-- validation state;
-- relationship to later registrar records.
+Contains only the minimum public-safe metadata required to establish chronology and provenance: registrar ID; date/time window; source class; sanitized title or domain; research domain; upstream institution or publisher where relevant; public source URL when safe and useful; evidence-vault pointer or hash when available; validation state; and relationship to later registrar records.
 
 Tokens, credentials, session identifiers, authentication callback parameters, private portal paths, local filesystem paths, and personal account-management URLs are prohibited from the public layer.
 
 ## Historical event object
-
-Each historical event is represented as:
 
 ```yaml
 history_event_id:
@@ -122,6 +109,26 @@ This prevents a browsing trail from being mistaken for a validated bibliography 
 
 ## Indexed historical batches
 
+### `NMG-HIST-2026-0822-0824-001`
+
+**Coverage:** 2026-08-22 through 2026-08-24  
+**Status:** `HISTORICAL / INDEXED`  
+**Batch record:** `registrar/HISTORY-BATCH-2026-0822-0824.yaml`  
+**Promotion queue:** `registrar/HISTORY-PROMOTION-QUEUE-2026-0822-0824.md`  
+**Raw evidence:** controlled source record; public repository contains metadata only.
+
+Observed research domains include:
+
+- critical-infrastructure instrumentation, metrology, trust, and physical-systems architecture;
+- sensor, MEMS, micro-opto-electromechanical, superconducting, laser, mapping-radar, lidar, and GPS-denied patent research;
+- NASA Earthdata / airborne lidar and remote-sensing research;
+- GNSS, hyperspectral, atmospheric, ocean-color, 3D mapping, and related literature review;
+- North Carolina geology, mineral resources, core/cuttings/well-log collections, mining forms, permits, and mapping resources;
+- USGS geologic, geochemical, lidar, mineral-information, scientific-collection, and ScienceBase resources;
+- VERITAS MINERALIS / Mitchell County research;
+- repository / fork inspection and software-source review;
+- Gemini notebooks and ChatGPT research / architecture logs.
+
 ### `NMG-HIST-2026-0825-0826-001`
 
 **Coverage:** 2026-08-25 through 2026-08-26  
@@ -129,21 +136,7 @@ This prevents a browsing trail from being mistaken for a validated bibliography 
 **Batch record:** `registrar/HISTORY-BATCH-2026-0825-0826.yaml`  
 **Raw evidence:** controlled source record; public repository contains metadata only.
 
-Observed research domains include:
-
-- VERITAS MINERALIS / Mitchell County mineral research;
-- USGS, NC DEQ, TN geology and historical geological-bulletin retrieval;
-- State Geologic Map Compilation and geospatial repository discovery;
-- mineral / lidar patent research;
-- nuclear sensor, reactor protection, and patent-lineage investigation;
-- historical reactor-record evaluation;
-- optical, sensor, fiber-optic, and mass-spectrometry lineage research;
-- ChatGPT architecture / provenance sessions;
-- Gemini notebooks and source-ingestion sessions;
-- Claude patent-audit work;
-- geodetic, scientific-corpus, and infrastructure research.
-
-This batch establishes historical chronology only. Each source, patent, dataset, repository, license, or architecture requires its own promotion and validation record.
+Observed research domains include VERITAS MINERALIS / Mitchell County mineral research; USGS, NC DEQ, TN geology and historical geological-bulletin retrieval; State Geologic Map Compilation and geospatial repository discovery; mineral/lidar patent research; nuclear sensor, reactor protection, and patent-lineage investigation; historical reactor-record evaluation; optical, sensor, fiber-optic, and mass-spectrometry lineage research; ChatGPT architecture/provenance sessions; Gemini notebooks and source-ingestion sessions; Claude patent-audit work; and geodetic, scientific-corpus, and infrastructure research.
 
 ### `NMG-HIST-2026-0827-0914-001`
 
@@ -152,29 +145,13 @@ This batch establishes historical chronology only. Each source, patent, dataset,
 **Raw evidence:** retained outside the public repository in the controlled source record supplied to the registrar.  
 **Public disclosure:** metadata only; raw authenticated/session-bearing URLs are not published.
 
-Observed research domains in this batch include:
+Observed research domains include GitHub repository and license-ledger organization; NASA Earthdata / Earth-science data-access research; NASA Open APIs and software/catalog research; NIST metrology, calibration, standards, identity, and quantum-sensing research; DARPA augmented-cognition / human-machine research; geospatial, mineral, remote-sensing, and digital-twin research; OSTI technical reports, patents, sensors, reactors, materials, and scientific software; patent-lineage investigation; nuclear, materials, photonics, sensor, grid, manufacturing, and infrastructure research; SINTEF digital-twin / data-platform research; and NMG notebook, source-vault, architecture, provenance, and engine-interaction records.
 
-- GitHub repository and license-ledger organization;
-- NASA Earthdata / Earth-science data-access research;
-- NASA Open APIs and software/catalog research;
-- NIST, metrology, calibration, standards, identity, and quantum-sensing research;
-- DARPA augmented-cognition / human-machine research;
-- geospatial, mineral, remote-sensing, and digital-twin research;
-- OSTI technical reports, patents, sensors, reactors, materials, and scientific software;
-- patent-lineage investigation;
-- nuclear, materials, photonics, sensor, grid, manufacturing, and infrastructure research;
-- SINTEF digital-twin / data-platform research;
-- NMG notebook, source-vault, architecture, provenance, and engine-interaction records.
-
-These categories describe observed research activity only. They do not establish endorsement, ownership, license scope, service approval, contract authority, scientific validation, or operational deployment.
+These batch categories describe observed research activity only. They do not establish endorsement, ownership, license scope, service approval, contract authority, scientific validation, or operational deployment.
 
 ## Notebook / log layer
 
-Notebook and log records are now explicitly bound into the history architecture under:
-
-`registrar/NOTEBOOK-LOG-MAPPING.md`
-
-The notebook/log relationship is:
+Notebook and log records are bound into the history architecture under `registrar/NOTEBOOK-LOG-MAPPING.md`.
 
 `HISTORY EVENT -> NOTEBOOK / LOG -> SOURCE APERTURE -> ANALYTICAL STATE -> HUMAN DISPOSITION -> PROMOTION / SUPERSESSION EDGE`
 
@@ -195,25 +172,9 @@ The original notebook or log remains linked after material is promoted into a fo
 
 ## Promotion rule
 
-A history event may become a formal registrar object only through an explicit promotion edge:
-
 `HISTORY_EVENT -> NOTEBOOK / LOG LINK -> SOURCE REVIEW -> AUTHORITY / LICENSE CHECK -> REGISTERED OBJECT`
 
-Examples:
-
-`HISTORY_EVENT -> REPOSITORY`
-
-`HISTORY_EVENT -> LICENSE`
-
-`HISTORY_EVENT -> EULA`
-
-`HISTORY_EVENT -> PATENT`
-
-`HISTORY_EVENT -> DATASET`
-
-`HISTORY_EVENT -> ARCHITECTURE`
-
-The originating history event and notebook/log context remain linked after promotion.
+The originating history event and notebook/log context remain linked after promotion. Search adjacency, engine output, repository presence, or notebook co-location may justify review; none independently establish scientific, legal, authorship, or operational authority.
 
 ## Glassbox validation objective
 
@@ -222,5 +183,7 @@ The history corpus is retained so a reviewer can reconstruct not only the final 
 `QUESTION -> SEARCH -> SOURCE APERTURE -> ENGINE / HUMAN ANALYSIS -> NOTEBOOK / LOG -> PROVISIONAL RECORD -> CHALLENGE -> CORRECTION -> CURRENT RECORD`
 
 This is the validation value of the history. The architecture does not ask any computational engine to function as an oracle; it asks the record to show what was known, what was not known, how a conclusion was reached, and why a later conclusion replaced it.
+
+**Current indexed chronology:** 2026-08-22 through 2026-09-14.
 
 > **Do not erase the path to the answer. Register the path, preserve the conflict, and bind the stronger evidence to the record that it supersedes.**
