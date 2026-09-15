@@ -1,0 +1,100 @@
+batch_id: NMG-HIST-2026-0825-0826-001
+object_class: HISTORY_BATCH
+status: HISTORICAL / INDEXED
+coverage_start: 2026-08-25
+coverage_end: 2026-08-26
+custody_model: CONTROLLED-VAULT + PUBLIC-SAFE-INDEX
+human_authority: Juan L. Noriega
+
+purpose: >-
+  Preserve the research chronology preceding later registrar formalization. This batch records
+  searches, source retrieval, patent review, notebook activity, engine interactions, geospatial
+  and mineral-source investigation, reactor/control lineage work, and provenance development.
+  It does not convert browsing history or engine output into validated fact.
+
+observed_domains:
+  - VERITAS MINERALIS / Mitchell County mineral research
+  - USGS / NC DEQ / TN geology bulletin retrieval
+  - geological and mineral repository discovery
+  - SGMC geodatabase and geospatial data ingestion
+  - lidar / mineral-interface patent research
+  - patent provenance and reactor lineage
+  - nuclear sensor / reactor protection patent investigation
+  - optical / sensor / mass-spectrometry lineage research
+  - Gemini Notebook source ingestion
+  - ChatGPT architecture and provenance sessions
+  - Claude patent-audit sessions
+  - historical reactor record evaluation
+  - geodetic / fiber-optic / scientific-corpus integration
+
+notable_history_nodes:
+  - id: H-20260826-GEO-001
+    time_window: evening
+    description: >-
+      Geological-source reconstruction using USGS Bulletin 60, state geological bulletins,
+      Internet Archive materials, NC DEQ, TN geology publications, and related search trails.
+    disposition: HISTORICAL
+    promotion_state: SOURCE-REVIEW-REQUIRED
+
+  - id: H-20260826-VM-001
+    time_window: evening
+    description: >-
+      DUAL MODAL / VERITAS MINERALIS and Mitchell County mineral-extraction research sessions
+      linked with external geological-source retrieval.
+    disposition: HISTORICAL
+    promotion_state: ARCHITECTURE-LINK-CANDIDATE
+
+  - id: H-20260826-SGMC-001
+    time_window: morning
+    description: >-
+      State Geologic Map Compilation geodatabase notebook activity alongside NC DEQ core,
+      cuttings, well-log, and repository-source discovery.
+    disposition: HISTORICAL
+    promotion_state: DATASET-REGISTRATION-CANDIDATE
+
+  - id: H-20260826-PAT-001
+    time_window: afternoon-evening
+    description: >-
+      Patent-lineage research covering reactor protection, nuclear sensors, optical/sensor
+      systems, mass-spectrometry related records, and patent provenance workflows.
+    disposition: HISTORICAL
+    promotion_state: PATENT-REGISTRATION-CANDIDATE
+
+  - id: H-20260826-ENG-001
+    time_window: afternoon-evening
+    description: >-
+      Cross-engine work including ChatGPT provenance and architecture sessions, Gemini notebook
+      and integration sessions, and Claude patent-audit activity. Engine participation is logged
+      as analytical history, not source authority.
+    disposition: HISTORICAL
+    promotion_state: ENGINE-REGISTER-CANDIDATE
+
+  - id: H-20260825-NBK-001
+    time_window: evening
+    description: >-
+      Notebook continuity involving reactor, aircraft, engineering, and system-orchestration
+      research immediately preceding the August 26 source-expansion session.
+    disposition: HISTORICAL
+    promotion_state: NOTEBOOK-LINK-CANDIDATE
+
+glassbox_rules:
+  - HISTORY_EVENT != VERIFIED_CLAIM
+  - SEARCH_RESULT != SOURCE_AUTHORITY
+  - ENGINE_OUTPUT != ORACLE
+  - NOTEBOOK_ENTRY != SOURCE_AUTHORITY
+  - PATENT_SEARCH_RESULT != PATENT_SCOPE_DETERMINATION
+  - SOURCE_RETRIEVAL != LICENSE_OR_USE_AUTHORITY
+
+promotion_chain: HISTORY_EVENT -> NOTEBOOK/LOG LINK -> SOURCE REVIEW -> AUTHORITY OR LICENSE CHECK -> REGISTERED OBJECT
+
+raw_evidence:
+  location: CONTROLLED-VAULT
+  public_repository_copy: prohibited
+  credential_or_session_material: possible
+  local_paths_present: possible
+
+notes: >-
+  This batch extends the Glassbox chronology backward from the previously indexed August 27 to
+  September 14 batch. Raw URLs, local file paths, account identifiers, and session-bearing links
+  remain outside the public registrar. Public records retain only sanitized chronology and
+  provenance relationships.
