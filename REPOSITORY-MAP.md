@@ -3,6 +3,8 @@
 **SYNTAX OS™ · EST. 1984**  
 **Human-in-Command · Provenance-Preserved · Source-Grounded**
 
+> **Registrar authority:** This repository map is subordinate to [`REGISTRAR.md`](./REGISTRAR.md). The map organizes research by function; the registrar governs identity, provenance, license / EULA, access, validation, lifecycle history, and future service-code / contracting mappings.
+
 This map organizes the GitHub account by research function. It does **not** reassign authorship or ownership of upstream projects. Repositories marked by GitHub as forks remain attributable to their original maintainers, licenses, institutions, inventors, and scientific communities.
 
 ## Classification rule
@@ -15,6 +17,14 @@ This map organizes the GitHub account by research function. It does **not** reas
 | **NMG ARCHITECTURAL INTEGRATION** | Noriega-authored wiring, synthesis, boundary definition, or system integration. |
 | **COMPUTATIONAL MODEL** | Design, simulation, or proposed configuration not yet physically qualified. |
 | **PHYSICALLY VERIFIED** | Reserved for records satisfying the applicable measurement, calibration, and validation gate. |
+
+## Registrar binding
+
+Every repository can be represented as a registrar object with its upstream owner, repository URL, version / commit, license, NMG use class, evidence state, related sources, service-access dependencies, and future approved-service mapping.
+
+Historical repository records are not deleted solely because a fork is old, unused, superseded, or later found unsuitable. They remain part of the glassbox lineage and may be marked `HISTORICAL`, `SUPERSEDED`, `WITHDRAWN-FROM-USE`, or `INVALIDATED-BY-EVIDENCE` in the registrar.
+
+Computational engines and engine-produced logs are treated the same way: preserved for historical validation, organized by lifecycle and provenance, but never treated as oracle authority.
 
 ## 1. VERITAS MINERALIS · Geoscience · Mineral State
 
