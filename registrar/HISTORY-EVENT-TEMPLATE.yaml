@@ -1,0 +1,40 @@
+# NMG Glassbox History Event Template
+# Public-safe metadata only. Raw authenticated/session-bearing evidence remains in the controlled vault.
+
+history_event_id: NMG-HIST-YYYYMMDD-XXXX
+event_time: UNKNOWN
+time_precision: UNKNOWN
+source_class: HISTORY_EVENT
+title: UNKNOWN
+domain_or_institution: UNKNOWN
+public_url: UNKNOWN
+research_domain: UNKNOWN
+activity_type: UNKNOWN
+
+raw_evidence_location: CONTROLLED-VAULT
+raw_evidence_hash: UNKNOWN
+public_safe: false
+credential_or_session_data_present: UNKNOWN
+
+source_authority_state: UNKNOWN
+validation_state: HISTORICAL
+human_disposition: UNREVIEWED
+
+prompt_or_query_context: UNKNOWN
+engine_or_tool: UNKNOWN
+engine_version_if_known: UNKNOWN
+source_aperture: UNKNOWN
+
+related_repository_records: []
+related_license_records: []
+related_dataset_records: []
+related_patent_records: []
+related_architecture_records: []
+
+supersedes: []
+superseded_by: []
+conflicts_with: []
+notes: |
+  Historical presence does not establish truth, authorship, endorsement,
+  license scope, certification, service approval, contract authority,
+  scientific validation, or deployment status.
