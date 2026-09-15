@@ -38,6 +38,16 @@ Its governing chain is:
 
 The architecture preserves the non-identity of source provenance, cryptographic integrity, simulation result, telemetry return, calibrated measurement, and physical event.
 
+## Research repository map
+
+The account contains a large research corpus spanning geoscience, DESI astronomy, metrology, materials, energy, nuclear systems, resilient infrastructure, standards, post-quantum cryptography, communications, and computational tooling.
+
+The canonical navigation and attribution map is maintained here:
+
+**[NMG Research Repository Map](../REPOSITORY-MAP.md)**
+
+Key rule: GitHub forks and mirrors remain attributable to their upstream authors, institutions, licenses, and scientific communities. Their presence in this account is a research / interoperability / provenance record and does not create NMG authorship or institutional endorsement.
+
 ## Research posture
 
 External sources retain independent authorship, scientific authority, and validation status. NMG records distinguish source-established findings from Noriega architectural integration and from computational or developmental projections.
