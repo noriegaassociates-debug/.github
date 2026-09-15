@@ -1,0 +1,54 @@
+registrar_id: NMG-HIST-2026-0827-0914-001
+object_class: HISTORY_BATCH
+title: Aug-Sep 2026 Research and Architecture Browser-History Batch
+status: HISTORICAL
+coverage_start: 2026-08-27
+coverage_end: 2026-09-14
+registered_at: 2026-09-14
+
+raw_evidence_location: CONTROLLED-SOURCE-VAULT
+raw_evidence_hash: UNKNOWN
+public_safe: false
+raw_publication_authorized: false
+
+purpose: |
+  Preserve the chronological research path used to develop, challenge,
+  correct, and organize NMG architecture under the Glassbox doctrine.
+
+observed_domains:
+  - repository-and-license-ledger-organization
+  - nasa-earthdata-and-earth-science
+  - nasa-open-api-and-software-research
+  - nist-metrology-calibration-standards-and-sensing
+  - darpa-augmented-cognition-and-human-machine-research
+  - geospatial-mineral-and-remote-sensing
+  - osti-scientific-technical-report-and-software-research
+  - patent-lineage-research
+  - nuclear-materials-photonics-sensors-grid-and-manufacturing
+  - sintef-digital-twin-and-data-platform
+  - nmg-notebook-source-vault-and-engine-interaction-history
+
+validation_state: HISTORICAL-INDEXED
+source_authority_state: MIXED-UNPROMOTED
+human_disposition: RETAIN-AND-ORGANIZE
+
+prohibited_claims:
+  - endorsement
+  - ownership-transfer
+  - institutional-sponsorship
+  - certification
+  - blanket-license-authority
+  - service-approval
+  - contract-authority
+  - scientific-validation-by-browsing-history
+  - operational-deployment
+
+promotion_rule: HISTORY_EVENT -> SOURCE_REVIEW -> AUTHORITY_OR_LICENSE_CHECK -> REGISTERED_OBJECT
+
+notes: |
+  Raw history may contain authenticated URLs, account-management paths,
+  local filesystem references, private-repository references, session or
+  callback parameters, and other sensitive data. Such material is not to be
+  published in the public registrar. Public registration uses sanitized
+  metadata and provenance pointers only. Historical presence is evidence of
+  research activity, not proof that the underlying proposition is true.
