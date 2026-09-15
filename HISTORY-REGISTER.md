@@ -17,6 +17,8 @@ The history register exists to preserve the development path of the architecture
 
 `ENGINE OUTPUT != ORACLE`
 
+`NOTEBOOK ENTRY != SOURCE AUTHORITY`
+
 `ACCOUNT ACCESS != ENDORSEMENT`
 
 `REPOSITORY PRESENCE != AUTHORSHIP`
@@ -104,6 +106,7 @@ related_license_records: []
 related_dataset_records: []
 related_patent_records: []
 related_architecture_records: []
+related_notebooks_or_logs: []
 
 supersedes: []
 superseded_by: []
@@ -117,7 +120,30 @@ Large browser-history exports are registered as a `HISTORY_BATCH` first. Individ
 
 This prevents a browsing trail from being mistaken for a validated bibliography while preserving the full chronology for Glassbox review.
 
-## Current historical batch
+## Indexed historical batches
+
+### `NMG-HIST-2026-0825-0826-001`
+
+**Coverage:** 2026-08-25 through 2026-08-26  
+**Status:** `HISTORICAL / INDEXED`  
+**Batch record:** `registrar/HISTORY-BATCH-2026-0825-0826.yaml`  
+**Raw evidence:** controlled source record; public repository contains metadata only.
+
+Observed research domains include:
+
+- VERITAS MINERALIS / Mitchell County mineral research;
+- USGS, NC DEQ, TN geology and historical geological-bulletin retrieval;
+- State Geologic Map Compilation and geospatial repository discovery;
+- mineral / lidar patent research;
+- nuclear sensor, reactor protection, and patent-lineage investigation;
+- historical reactor-record evaluation;
+- optical, sensor, fiber-optic, and mass-spectrometry lineage research;
+- ChatGPT architecture / provenance sessions;
+- Gemini notebooks and source-ingestion sessions;
+- Claude patent-audit work;
+- geodetic, scientific-corpus, and infrastructure research.
+
+This batch establishes historical chronology only. Each source, patent, dataset, repository, license, or architecture requires its own promotion and validation record.
 
 ### `NMG-HIST-2026-0827-0914-001`
 
@@ -142,11 +168,36 @@ Observed research domains in this batch include:
 
 These categories describe observed research activity only. They do not establish endorsement, ownership, license scope, service approval, contract authority, scientific validation, or operational deployment.
 
+## Notebook / log layer
+
+Notebook and log records are now explicitly bound into the history architecture under:
+
+`registrar/NOTEBOOK-LOG-MAPPING.md`
+
+The notebook/log relationship is:
+
+`HISTORY EVENT -> NOTEBOOK / LOG -> SOURCE APERTURE -> ANALYTICAL STATE -> HUMAN DISPOSITION -> PROMOTION / SUPERSESSION EDGE`
+
+Notebooks may contain external sources, human synthesis, computational-engine output, provisional claims, code, diagrams, calculations, corrections, and later supersession records. Those components retain independent evidentiary classes.
+
+Primary notebook/log classes are:
+
+- `SOURCE-INGESTION-NOTEBOOK`
+- `ARCHITECTURE-NOTEBOOK`
+- `PATENT-LINEAGE-NOTEBOOK`
+- `DATASET-NOTEBOOK`
+- `VALIDATION-NOTEBOOK`
+- `ENGINE-INTERACTION-LOG`
+- `PHYSICAL-MEASUREMENT-LOG`
+- `GOVERNANCE-LOG`
+
+The original notebook or log remains linked after material is promoted into a formal registrar object.
+
 ## Promotion rule
 
 A history event may become a formal registrar object only through an explicit promotion edge:
 
-`HISTORY_EVENT -> SOURCE REVIEW -> AUTHORITY / LICENSE CHECK -> REGISTERED OBJECT`
+`HISTORY_EVENT -> NOTEBOOK / LOG LINK -> SOURCE REVIEW -> AUTHORITY / LICENSE CHECK -> REGISTERED OBJECT`
 
 Examples:
 
@@ -162,13 +213,13 @@ Examples:
 
 `HISTORY_EVENT -> ARCHITECTURE`
 
-The originating history event remains linked after promotion.
+The originating history event and notebook/log context remain linked after promotion.
 
 ## Glassbox validation objective
 
 The history corpus is retained so a reviewer can reconstruct not only the final architecture, but the path that produced it:
 
-`QUESTION -> SEARCH -> SOURCE APERTURE -> ENGINE / HUMAN ANALYSIS -> PROVISIONAL RECORD -> CHALLENGE -> CORRECTION -> CURRENT RECORD`
+`QUESTION -> SEARCH -> SOURCE APERTURE -> ENGINE / HUMAN ANALYSIS -> NOTEBOOK / LOG -> PROVISIONAL RECORD -> CHALLENGE -> CORRECTION -> CURRENT RECORD`
 
 This is the validation value of the history. The architecture does not ask any computational engine to function as an oracle; it asks the record to show what was known, what was not known, how a conclusion was reached, and why a later conclusion replaced it.
 
