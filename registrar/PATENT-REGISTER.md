@@ -17,6 +17,7 @@ Patent records preserve technical lineage, claim boundaries, cited prior art, as
 | NMG-PAT-CN106083000A-001 | CN106083000A | Recycling technique of aluminium oxide ceramics waste product | HISTORICAL | Alumina ceramic waste recovery / re-sintering prior-art record |
 | NMG-PAT-CN103214250B-001 | CN103214250B | Recycling method for waste alumina brick | HISTORICAL | Alumina refractory brick closed-loop remelt / recast prior-art record |
 | NMG-PAT-FR2604575A1-001 | FR2604575A1 | Ferromagnetic resonator having temperature compensation means which uses precoded compensation data | HISTORICAL | YIG / ferrimagnetic resonator temperature-compensation prior-art record |
+| NMG-PAT-EP2390292A1-001 | EP2390292A1 | Magnetic ink composition, magnetic ink character recognition process, and magnetically readable structures | HISTORICAL | Carbon-nanofoam magnetic print / MICR / readable-structure prior-art record |
 
 ### US2837483A
 
@@ -66,3 +67,14 @@ The supplied patent record describes a ferrimagnetic thin-film resonator, includ
 The registrar treats the architecture as a closed physical-digital-physical compensation chain: measured temperature is not the compensation table, the table is not the drive current, and the drive current is not the resulting magnetic field or resonance state.
 
 The public patent record identifies FR2604575A1 as a Sony filing with Japanese priority on 1986-09-29 and identifies US4755780A as the United States family member. The current Glassbox history master for 2026-08-04 through 2026-08-26 contains **0 exact occurrences** of either identifier, so no history event has been fabricated.
+
+
+### EP2390292A1
+
+Source record: `registrar/patents/EP2390292A1.yaml`
+
+The supplied patent record describes carbon nanofoam as the magnetic component of ink and toner compositions used for MICR and other magnetically readable structures. It links material formulation to deposited geometry, residual magnetic state, scanner response, and machine-readable character interpretation.
+
+The registrar keeps those stages separate: the printed mark is not the magnetic material itself; the magnetic material is not the scanner signal; and the scanner signal is not automatically authenticated identity or evidentiary truth.
+
+The current Glassbox history master for 2026-08-04 through 2026-08-26 contains **0 exact occurrences** of `EP2390292A1`. Therefore no browser-history event has been created from the existing working-file dataset.
