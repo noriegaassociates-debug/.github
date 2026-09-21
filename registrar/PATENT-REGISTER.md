@@ -13,7 +13,7 @@ Patent records preserve technical lineage, claim boundaries, cited prior art, as
 | Registrar ID | Publication | Title | Status | Current NMG Role |
 |---|---|---|---|---|
 | NMG-PAT-US2837483A-001 | US2837483A | Method of making a permanent magnet | HISTORICAL | Foundational ferrite / anisotropic magnet process prior-art record |
-| NMG-PAT-US4923019A-001 | US4923019A | Thermochemical penetrator for ice and frozen soils | HISTORICAL | Thermochemical ice / frozen-soil penetration prior-art record |
+| NMG-PAT-US4923019A-001 | US4923019A | Thermochemical penetrator for ice and frozen soils | HISTORICAL | Thermochemical ice / frozen-soil penetration prior-art record |\n| NMG-PAT-CN106083000A-001 | CN106083000A | Recycling technique of aluminium oxide ceramics waste product | HISTORICAL | Alumina ceramic waste recovery / re-sintering prior-art record |
 
 ### US2837483A
 
@@ -32,3 +32,14 @@ The supplied patent record describes a confined thermochemical penetration archi
 The registrar preserves this as upstream thermochemical-penetration prior art. It does not attribute the patent to NMG, does not establish present enforceability or safety qualification, and does not convert the disclosed chemistry into an operational NMG procedure.
 
 The current Glassbox history master for 2026-08-04 through 2026-08-26 contains **0 exact occurrences** of `US4923019A`. No browser-history event has therefore been fabricated. A later working-file event may be linked to this patent object while preserving both records independently.
+
+
+### CN106083000A
+
+Source record: `registrar/patents/CN106083000A.yaml`
+
+The supplied patent record describes recovery of alumina ceramic waste, sintering bedding/padding, and sintering scrap through impurity removal, cleaning, crushing, fine grinding, additive reconditioning, remolding, and high-temperature re-sintering under vacuum or protective atmosphere.
+
+The registrar preserves the disclosed particle-size range, additive percentages, sintering envelope, and example embodiments as source-reported process parameters. Because the supplied English text appears machine translated, ambiguous chemical terms are preserved exactly as supplied and flagged for later verification against the Chinese specification rather than silently corrected.
+
+The current Glassbox history master for 2026-08-04 through 2026-08-26 contains **0 exact occurrences** of `CN106083000A`. Therefore no browser-history event has been created for this patent from that dataset.
