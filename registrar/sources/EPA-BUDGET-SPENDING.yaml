@@ -1,0 +1,132 @@
+registrar_id: NMG-SRC-EPA-BUDGET-SPENDING-001
+object_class: SOURCE
+title: "EPA's Budget and Spending"
+canonical_name: "U.S. Environmental Protection Agency — Budget and Spending"
+status: ACTIVE
+created_at: "2026-05-01"
+observed_at: "2026-09-21"
+registered_at: "2026-09-21"
+
+source_or_origin: "U.S. Environmental Protection Agency official website"
+upstream_author_or_institution: "U.S. Environmental Protection Agency"
+source_url: "https://www.epa.gov/planandbudget/budget"
+source_domain: "epa.gov"
+source_type: "OFFICIAL GOVERNMENT BUDGET / WORKFORCE TABLE"
+last_updated_as_source: "2026-05-01"
+
+scope:
+  subject:
+    - "EPA enacted budget history"
+    - "EPA workforce history"
+    - "Budget resource use"
+    - "Financial and performance reporting"
+    - "Historical budget documents"
+    - "Administrative control of appropriated funds"
+    - "Federal Program Inventory"
+    - "USAspending.gov linkage"
+  fiscal_year_coverage: "FY 1970–FY 2026"
+
+current_values_verified_2026_09_21:
+  FY2026:
+    enacted_budget_usd: 8816888000
+    workforce: 12312
+    note: "EPA states that, in conjunction with the FY 2026 operating plan, $987 million in Superfund tax receipts were allocated to CERCLA work."
+  FY2025:
+    enacted_budget_usd: 9135171000
+    workforce: 14130
+  FY2024:
+    enacted_budget_usd: 9158894000
+    workforce: 15130
+  source_note: >
+    EPA states that FY 2024 and FY 2025 operating plans allocated $744.5 million
+    in Superfund tax receipts for CERCLA work as the program transitioned to a
+    combination of base and tax funding.
+
+workforce_methodology_as_source:
+  FY1970_FY2016: "FTE actuals"
+  FY2017_forward: "FTE ceilings / established agency targets"
+  additional_inclusions: "Workforce includes ARRA, Sandy Supplement, and reimbursable FTE."
+
+authority_boundary:
+  establishes:
+    - "EPA's official published historical enacted-budget series."
+    - "EPA's official published workforce series and stated methodology."
+    - "EPA's stated linkage to financial/performance reports, historical budget documents, appropriated-funds control manual, Federal Program Inventory, and USAspending.gov."
+  does_not_establish:
+    - "A contract, award, grant, solicitation, or procurement opportunity for NMG."
+    - "Program-level availability of funds for a specific project."
+    - "EPA endorsement of NMG."
+    - "Eligibility of NMG for any EPA funding vehicle."
+    - "A causal explanation for year-to-year budget or workforce changes unless separately documented."
+
+registrar_use:
+  primary_role: "FEDERAL AGENCY RESOURCE / PROGRAM-CONTEXT SOURCE"
+  secondary_roles:
+    - "Historical budget baseline"
+    - "Agency workforce baseline"
+    - "Appropriations-to-program research anchor"
+    - "USAspending follow-the-money anchor"
+  promotion_rule: >
+    Budget totals may be used as agency-level context. Any assertion about a
+    specific EPA office, program, grant, contract, appropriation account,
+    recipient, or available balance must be supported by the corresponding
+    program/financial/award source rather than inferred from this table.
+
+history_dataset_linkage:
+  state: "NOT YET LINKED TO A WORKING-HISTORY EVENT"
+  rule: >
+    A browser-history event is created only if a working history export contains
+    this EPA page or a verified matching event. Source registration does not
+    manufacture chronology.
+
+license_or_eula: "N/A"
+license_identifier: "N/A"
+legal_use_authority: "Official public U.S. government source"
+service_provider: "U.S. EPA"
+service_name: "Planning, Budget, and Results"
+service_approval_state: "N/A"
+
+sam_mapping: UNASSIGNED
+service_code: UNASSIGNED
+contract_or_award_authority: UNASSIGNED
+
+validation_state: "SOURCE-ESTABLISHED"
+validation_methodology: >
+  User-supplied table cross-checked against the official EPA Budget and Spending
+  page on 2026-09-21. Current FY 2024–FY 2026 budget/workforce figures, the
+  Superfund tax-receipt notes, workforce methodology, and May 1, 2026 update
+  date matched the official source.
+known_uncertainty:
+  - "Agency-wide enacted budget does not equal unobligated or currently available program funding."
+  - "Workforce figures change methodological meaning beginning FY 2017, from actual FTE to ceilings/targets."
+  - "Historical nominal dollar values are not inflation-adjusted in the source table."
+prohibited_claims:
+  - "Do not infer NMG funding access from EPA's total budget."
+  - "Do not treat agency budget as a procurement forecast."
+  - "Do not infer program authority from aggregate budget totals."
+  - "Do not compare workforce levels across the FY2016/FY2017 methodology boundary without noting the change."
+
+source_provenance:
+  source_type: "OFFICIAL-EPA-WEBPAGE"
+  source_identifier: "EPA-BUDGET-SPENDING"
+cryptographic_integrity: "URL-REGISTERED / PAGE-HASH-NOT-CAPTURED"
+telemetry_return: "N/A"
+calibrated_measurement: "N/A"
+physical_event: "N/A"
+
+engine_contributors:
+  - provider: "OpenAI"
+    role: "Registrar structuring and official-source cross-check"
+human_authority: "Juan L. Noriega"
+
+supersedes: []
+superseded_by: []
+conflicts_with: []
+related_records:
+  - "EPA Historical Planning, Budget, and Results Reports"
+  - "EPA FY 2027 Budget"
+  - "EPA FY 2025 Financial and Performance Results"
+  - "USAspending.gov"
+notes:
+  - "This is a resource-context source, not a funding-availability record."
+  - "The full FY1970–FY2026 table remains attributable to EPA; program-specific mappings should be registered separately."
