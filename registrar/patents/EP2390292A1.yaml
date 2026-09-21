@@ -1,0 +1,169 @@
+registrar_id: NMG-PAT-EP2390292A1-001
+object_class: PATENT
+title: "Magnetic ink composition, magnetic ink character recognition process, and magnetically readable structures"
+canonical_name: "EP2390292A1 — Magnetic ink composition, magnetic ink character recognition process, and magnetically readable structures"
+status: HISTORICAL
+created_at: "2006-04-26"
+observed_at: "2026-09-21"
+registered_at: "2026-09-21"
+
+source_or_origin: "User-supplied patent text and bibliographic record in current registrar session"
+upstream_author_or_institution:
+  inventors_as_supplied:
+    - "William G. Herbert"
+    - "Gary J. Maier"
+  assignee_as_supplied:
+    - "Xerox Corp"
+jurisdiction: "European Patent Office"
+publication_number: "EP2390292A1"
+application_number: "EP11006088A"
+family_filing_date_as_supplied: "2006-04-26"
+publication_date: "2011-11-30"
+grant_date: "2013-06-19"
+grant_publication: "EP2390292B1"
+anticipated_expiration_as_supplied: "2026-04-26"
+legal_status_as_supplied: "Expired - Lifetime"
+
+classification_as_supplied:
+  primary: "H01F41/16"
+  text: "Processes for applying magnetic films/particles to substrates to form thick magnetic films or precursors"
+
+technical_scope:
+  source_summary: >
+    Magnetic ink and toner compositions using carbon nanofoam as the magnetic
+    component, together with MICR processes and magnetically readable structures.
+    The patent describes carbon nanofoam in fluid-carrier inks or polymeric
+    toners, xerographic and inkjet-compatible processing, and use on checks,
+    bank notes, currency, cards, inventory labels, and other substrates.
+  functional_architecture:
+    - "Magnetic composition containing carbon nanofoam."
+    - "Fluid-carrier ink embodiments."
+    - "Polymer-based toner embodiments."
+    - "Optional dispersants, surfactants, colorants, waxes, coagulants, and charge-control additives."
+    - "MICR character formation on a substrate."
+    - "Magnetic scanning / character recognition."
+    - "Magnetically readable structures beyond conventional paper documents."
+  material_role:
+    carbon_nanofoam: >
+      Source-described ferromagnetic carbon allotrope used to replace some or all
+      conventional magnetic particles and, in some embodiments, carbon-black pigment.
+    disclosed_particle_size: "about 1–50 nm; embodiments about 5–10 nm"
+    disclosed_loading: "about 0.1–45 wt%; embodiments include about 0.1–10 wt%"
+  source_reported_magnetic_parameters:
+    coercivity: "about 70–800 Oe; embodiments about 250–500 Oe"
+    remanent_magnetization: "about 10–75 emu/g; embodiments about 23–39 emu/g"
+    saturation_magnetization: "about 50–100 emu/g; embodiments about 70–90 emu/g"
+  micr_signal_as_supplied:
+    source_definition: "Adequate MICR described as about 50–130% of nominal signal"
+    note: "Signal and jurisdictional thresholds are recorded as patent-stated claims, not independently verified here."
+
+process_lineage:
+  xerographic_chain: >
+    LATENT ELECTROSTATIC IMAGE -> CARBON-NANOFOAM TONER DEPOSITION ->
+    TRANSFER TO SUBSTRATE -> FIXING -> MAGNETICALLY READABLE IMAGE
+  micr_chain: >
+    CARBON-NANOFOAM MAGNETIC COMPOSITION -> RECOGNIZABLE CHARACTER ->
+    MAGNETIC READING DEVICE -> SIGNAL / CHARACTER RECOGNITION
+  inkjet_chain: >
+    CARBON-NANOFOAM DISPERSION + CARRIER + DISPERSANT ->
+    PRINTED MAGNETIC MARK -> DRYING -> MAGNETIC READOUT
+
+source_claim_boundary:
+  patent_claims_establish: >
+    The disclosed carbon-nanofoam magnetic compositions, MICR methods,
+    xerographic/ink formulations, and magnetically readable structures as stated
+    in the patent record.
+  patent_claims_do_not_establish:
+    - "Independent replication of all reported magnetic properties."
+    - "Current commercial adoption."
+    - "Current legal enforceability."
+    - "NMG authorship or invention date."
+    - "Banking-system certification."
+    - "Current MICR regulatory compliance."
+    - "Suitability as an authentication or evidentiary control without separate testing."
+
+historical_lineage_role:
+  proposed_role: "CARBON-NANOFOAM MAGNETIC PRINT / MICR / READABLE-STRUCTURE PRIOR-ART RECORD"
+  rationale: >
+    Relevant to historical reconstruction of magnetic information encoding in
+    printable material, where material composition carries a physically measurable
+    magnetic state that is deposited onto a substrate and later read by a sensor.
+    The record bridges magnetic-material formulation, printed geometry, physical
+    signal persistence, and machine-readable interpretation.
+  nmg_integration_state: "NOT YET MAPPED TO A SPECIFIC NMG ARCHITECTURE"
+
+glassbox_mapping:
+  source_native_state_chain:
+    - "Magnetic material composition"
+    - "Printed/deposited geometry"
+    - "Residual magnetic state"
+    - "Scanner interaction"
+    - "Measured magnetic signal"
+    - "Recognized character / data interpretation"
+  non_identity_rule: >
+    PRINTED MARK != MAGNETIC MATERIAL CONTENT != RESIDUAL MAGNETIZATION
+    != SCANNER SIGNAL != RECOGNIZED CHARACTER
+
+history_dataset_linkage:
+  current_master_dataset_checked: "NMG_GLASSBOX_HISTORY_MASTER_2026-08-04_2026-08-26"
+  exact_identifier_occurrences_found: 0
+  rule: >
+    Do not create a historical-browser-event row unless a working history export
+    contains EP2390292A1 or an independently verified family/source event.
+
+license_or_eula: "N/A"
+license_identifier: "N/A"
+license_text_location: "N/A"
+legal_use_authority: "Public patent publication as source reference; no separate NMG license asserted"
+accepted_or_effective_date: "N/A"
+
+service_provider: "N/A"
+service_name: "N/A"
+account_context: "N/A"
+access_scope: "N/A"
+service_environment: "N/A"
+service_approval_state: "N/A"
+
+sam_mapping: UNASSIGNED
+service_code: UNASSIGNED
+contract_or_award_authority: UNASSIGNED
+
+validation_state: "SOURCE-RECORDED / NOT INDEPENDENTLY VERIFIED IN THIS ENTRY"
+validation_methodology: >
+  Source-faithful registrar transcription from the user-supplied patent record.
+  Any later patent-family, materials-property, MICR-standard, legal-status, or
+  signal-performance verification should be attached as separate verification
+  edges rather than overwriting this source record.
+known_uncertainty:
+  - "Legal status and family history are recorded as supplied and not independently checked in this entry."
+  - "Material magnetic-property ranges are patent-stated values, not independently reproduced."
+  - "Patent statements about MICR nominal-signal requirements should not be treated as current banking-standard requirements without separate standards verification."
+prohibited_claims:
+  - "Do not attribute the patent to NMG."
+  - "Do not treat Xerox or the patent as endorsement of NMG."
+  - "Do not treat patent disclosure as certification for banking or security use."
+  - "Do not equate a magnetically readable mark with authenticated identity or evidentiary truth."
+  - "Do not infer present enforceability from the historical patent record."
+
+source_provenance:
+  source_type: "USER-SUPPLIED-PATENT-TEXT"
+  source_identifier: "EP2390292A1"
+cryptographic_integrity: "PENDING-SOURCE-FILE-HASH"
+telemetry_return: "N/A"
+calibrated_measurement: "N/A"
+physical_event: "N/A"
+
+engine_contributors:
+  - provider: "OpenAI"
+    role: "Registrar structuring only"
+human_authority: "Juan L. Noriega"
+
+supersedes: []
+superseded_by: []
+conflicts_with: []
+related_records:
+  - "US3998160A — magnetic ink printing method as cited in supplied source"
+  - "US6312768B1 — pulsed laser deposition reference as cited in supplied source"
+notes:
+  - "The source is relevant to magnetic material state being physically encoded into printed structures and later sensed."
+  - "Current Glassbox history master contains no exact EP2390292A1 occurrence; no history event was fabricated."
