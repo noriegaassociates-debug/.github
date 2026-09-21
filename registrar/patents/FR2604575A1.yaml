@@ -1,0 +1,175 @@
+registrar_id: NMG-PAT-FR2604575A1-001
+object_class: PATENT
+title: "Ferromagnetic resonator having temperature compensation means which uses precoded compensation data"
+canonical_name: "FR2604575A1 — Ferromagnetic resonator having temperature compensation means which uses precoded compensation data"
+status: HISTORICAL
+created_at: "1987-09-29"
+observed_at: "2026-09-21"
+registered_at: "2026-09-21"
+
+source_or_origin: "User-supplied patent text; bibliographic fields cross-checked against public patent record"
+upstream_author_or_institution:
+  inventors:
+    - "Seigo Ito"
+    - "Yoshikazu Murakami"
+    - "Tomikazu Watanabe"
+    - "Takahiro Ohgihara"
+  assignee:
+    - "Sony Corp"
+jurisdiction: "France"
+publication_number: "FR2604575A1"
+application_number: "FR8713460A"
+priority:
+  country: "Japan"
+  date: "1986-09-29"
+filing_date: "1987-09-29"
+publication_date: "1988-04-01"
+grant_date: "1992-09-04"
+grant_publication: "FR2604575B1"
+anticipated_expiration_as_supplied: "2007-09-29"
+legal_status_as_supplied: "Expired - Lifetime"
+
+family_publications:
+  - "US4755780A"
+  - "JPS6384301A"
+  - "KR960000138B1"
+  - "CA1276697C"
+  - "DE3732794C2"
+  - "FR2604575B1"
+  - "GB2197545B"
+
+classification_as_supplied:
+  primary: "H01P1/215"
+  text: "Frequency-selective devices, e.g. filters using ferromagnetic material"
+
+technical_scope:
+  source_summary: >
+    Temperature-compensated ferromagnetic/ferrimagnetic resonator using a thin
+    ferrimagnetic film, particularly a YIG thin film, together with a temperature
+    detector, bias magnetic-field means, a compensation coil, and a compensation
+    circuit containing precoded temperature-compensation data. The measured
+    resonator temperature selects compensation data that controls additional
+    magnetic field so resonance frequency remains stabilized over temperature.
+  architecture_features:
+    - "Ferrimagnetic thin-film resonator element, including YIG embodiments."
+    - "Bias magnetic field applied perpendicular to the principal film surface."
+    - "Temperature detector associated with the resonator element."
+    - "Precoded compensation data stored in memory."
+    - "A/D conversion of measured temperature in disclosed digital embodiment."
+    - "D/A conversion or current-drive stage for compensation output."
+    - "Compensation coil producing an additional magnetic field."
+    - "Wide-variable-frequency operation with compensation independent of the principal tuning current."
+  compensation_chain: >
+    TEMPERATURE OF RESONATOR -> SENSOR -> DIGITAL TEMPERATURE VALUE ->
+    PRECODED COMPENSATION DATA / ROM -> COMPENSATION CURRENT ->
+    COMPENSATION COIL -> ADDITIONAL MAGNETIC FIELD -> RESONANCE STABILIZATION
+  physical_principle_as_supplied: >
+    Resonance frequency depends on applied bias field and temperature-dependent
+    saturation magnetization. Compensation current is selected so the additional
+    magnetic field offsets the temperature-dependent term rather than correcting
+    resonance through an external varactor or separate frequency-control element.
+
+source_claim_boundary:
+  patent_claims_establish: >
+    The disclosed arrangement and claimed use of measured temperature plus
+    precoded compensation data to drive a compensation magnetic field for a
+    ferrimagnetic resonator.
+  patent_claims_do_not_establish:
+    - "Independent replication."
+    - "Present commercial implementation."
+    - "NMG authorship or invention date."
+    - "Universal compensation accuracy for all YIG resonators."
+    - "Current legal enforceability."
+    - "Validation of any NMG resonator or transformer architecture."
+
+historical_lineage_role:
+  proposed_role: "YIG / FERRIMAGNETIC RESONATOR CLOSED-LOOP TEMPERATURE-COMPENSATION PRIOR-ART RECORD"
+  rationale: >
+    Relevant to historical reconstruction of architectures in which physical
+    temperature measurement is converted into stored calibration/compensation
+    data and then returned through a controlled physical actuator to maintain a
+    magnetic resonance state. This is a useful source for separating sensed
+    environmental state, stored compensation model, drive current, magnetic
+    field correction, and resulting physical resonance.
+  nmg_integration_state: "NOT YET MAPPED TO A SPECIFIC NMG ARCHITECTURE"
+
+glassbox_mapping:
+  source_native_state_chain:
+    - "Physical resonator temperature"
+    - "Temperature sensing"
+    - "Digital encoding / lookup"
+    - "Precoded compensation record"
+    - "Current-drive conversion"
+    - "Compensation-coil actuation"
+    - "Additional magnetic field"
+    - "Physical resonance response"
+  non_identity_rule: >
+    TEMPERATURE MEASUREMENT != STORED COMPENSATION DATA != COMPENSATION CURRENT
+    != MAGNETIC FIELD != RESONANCE FREQUENCY
+
+history_dataset_linkage:
+  current_master_dataset_checked: "NMG_GLASSBOX_HISTORY_MASTER_2026-08-04_2026-08-26"
+  exact_identifier_occurrences_found: 0
+  related_family_identifier_occurrences_found: 0
+  rule: >
+    Do not create a historical-browser-event row unless a working history export
+    contains FR2604575A1, a verified family identifier, or corresponding source event.
+
+license_or_eula: "N/A"
+license_identifier: "N/A"
+license_text_location: "N/A"
+legal_use_authority: "Public patent publication as source reference; no separate NMG license asserted"
+accepted_or_effective_date: "N/A"
+
+service_provider: "N/A"
+service_name: "N/A"
+account_context: "N/A"
+access_scope: "N/A"
+service_environment: "N/A"
+service_approval_state: "N/A"
+
+sam_mapping: UNASSIGNED
+service_code: UNASSIGNED
+contract_or_award_authority: UNASSIGNED
+
+validation_state: "SOURCE-RECORDED / PUBLIC BIBLIOGRAPHY CROSS-CHECKED / NOT PHYSICALLY VERIFIED"
+validation_methodology: >
+  Source-faithful registrar transcription from the user-supplied patent text,
+  with publication number, priority, filing/publication/grant dates, inventors,
+  assignee, and patent-family identifiers cross-checked against the public
+  patent record. Technical performance remains source-claimed unless separately tested.
+known_uncertainty:
+  - "The supplied English description is translated from French and contains translation/OCR artifacts."
+  - "Equation typography and symbols should be checked against the original patent PDF before quantitative reuse."
+  - "Legal status metadata from public aggregators is not a substitute for jurisdiction-specific legal review."
+prohibited_claims:
+  - "Do not attribute the patent to NMG."
+  - "Do not treat Sony or the patent family as endorsement of NMG."
+  - "Do not infer physical validation of an NMG YIG device from this source."
+  - "Do not collapse stored compensation data into measured physical state."
+
+source_provenance:
+  source_type: "USER-SUPPLIED-PATENT-TEXT + PUBLIC-PATENT-CROSSCHECK"
+  source_identifier: "FR2604575A1"
+  public_family_anchor: "US4755780A"
+cryptographic_integrity: "PENDING-SOURCE-FILE-HASH"
+telemetry_return: "N/A"
+calibrated_measurement: "N/A"
+physical_event: "N/A"
+
+engine_contributors:
+  - provider: "OpenAI"
+    role: "Registrar structuring and public bibliographic cross-check"
+human_authority: "Juan L. Noriega"
+
+supersedes: []
+superseded_by: []
+conflicts_with: []
+related_records:
+  - "US4547754A — Ferromagnetic resonator"
+  - "US4636756A — prior ferromagnetic resonator lineage referenced in source"
+  - "US4626800A — YIG thin film tuned MIC oscillator"
+  - "US4755780A — United States family member"
+notes:
+  - "This source is particularly relevant to physical-sensor -> stored-compensation -> physical-actuator state closure."
+  - "Current Glassbox history master contains no exact FR2604575A1 or US4755780A occurrence; no history event was fabricated."
