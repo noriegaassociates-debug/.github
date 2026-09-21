@@ -1,0 +1,180 @@
+registrar_id: NMG-PAT-CN103214250B-001
+object_class: PATENT
+title: "Recycling method for waste alumina brick"
+canonical_name: "CN103214250B — Recycling method for waste alumina brick"
+status: HISTORICAL
+created_at: "2012-12-31"
+observed_at: "2026-09-21"
+registered_at: "2026-09-21"
+
+source_or_origin: "User-supplied patent text and bibliographic record in current registrar session"
+upstream_author_or_institution:
+  inventors_as_supplied:
+    - "王国海"
+    - "李起胜"
+    - "徐宝魁"
+    - "刘官清"
+  assignee_as_supplied:
+    - "ZHENGZHOU ZHENZHONG FUZED NEW MATERIALS CO Ltd"
+jurisdiction: "China"
+publication_number: "CN103214250B"
+application_number: "CN201210588267.8A"
+priority:
+  country: "China"
+  date: "2012-12-31"
+filing_date: "2012-12-31"
+publication_date_application: "2013-07-24"
+grant_date: "2014-11-05"
+publication_date_grant: "2014-11-05"
+anticipated_expiration_as_supplied: "2032-12-31"
+legal_status_as_supplied: "Active"
+
+technical_scope:
+  source_summary: >
+    Recycling method for alumina refractory brick discarded after high-temperature
+    service. The disclosed process mechanically removes surface impurities,
+    crushes and sorts the waste brick, mixes the alumina-rich particulate with
+    pitch binder, presses the mixture into balls, remelts it in an electric arc
+    furnace, forms alumina spheres from the melt, sorts those spheres for abrasive
+    use, and reblends nonconforming spheres with commercial alumina and soda ash
+    for remelting and fused-cast alumina refractory brick production.
+  process_stages_as_supplied:
+    - "Mechanical cleaning and impurity removal from used alumina refractory brick."
+    - "Crushing and sorting to particulate below 10 mm."
+    - "Mixing waste-brick particulate with pitch binder."
+    - "Pressing mixed material into approximately 30 mm balls."
+    - "High-temperature electric-arc-furnace melting/smelting."
+    - "Discharging molten material under high-pressure water to form alumina spheres."
+    - "Drying and sorting spheres; qualifying complete spheres for abrasive use."
+    - "Chemical-composition adjustment of sorted residual spheres with commercial alumina and soda ash."
+    - "Second melting step followed by casting into refractory molds."
+    - "Insulation annealing, cooling, finishing, cutting, and assembly."
+  quantitative_parameters_as_supplied:
+    preprocessed_particle_size: "<10 mm"
+    waste_brick_fraction: "90–95%"
+    pitch_binder_fraction: "5–10%"
+    pressed_ball_size: "about 30 mm"
+    first_arc_furnace_secondary_voltage: "110–220 V"
+    first_arc_furnace_secondary_current: "1000–30000 A"
+    first_smelting_cycle: "50–120 min"
+    sphere_forming_water_pressure: "0.4–0.8 MPa"
+    reblend_sphere_fraction: "70–90%"
+    commercial_alumina_fraction: "10–25%"
+    soda_ash_fraction: "≤10%"
+    target_al2o3: "92–99%"
+    target_sio2: "≤0.6%"
+    target_na2o: "0.5–7%"
+    second_melting_voltage: "120–240 V"
+    second_melting_current: "1000–20000 A"
+    second_melting_cycle: "40–120 min"
+    insulation_annealing_time: "10–20 days as claimed; examples state 15–20 days"
+  source_reported_outputs:
+    - "Spherical alumina abrasive material."
+    - "Fused-cast alumina refractory brick."
+
+source_claim_boundary:
+  patent_claims_establish: >
+    The patent's disclosed recycling sequence, claimed process windows,
+    compositional blending ranges, and product routes as stated in the supplied record.
+  patent_claims_do_not_establish:
+    - "Independent replication."
+    - "Current commercial practice."
+    - "Current legal enforceability beyond the supplied status."
+    - "NMG authorship or invention date."
+    - "Environmental superiority without independent lifecycle evidence."
+    - "Equivalent service life or properties relative to virgin refractory products."
+    - "Qualification for an NMG manufacturing or safety-critical process."
+
+historical_lineage_role:
+  proposed_role: "ALUMINA REFRACTORY BRICK CLOSED-LOOP REMELT / RECAST PRIOR-ART RECORD"
+  rationale: >
+    Relevant to historical reconstruction of alumina-resource recovery from
+    post-service refractory brick, including contamination removal, carbon-assisted
+    impurity control, electric-arc remelting, sphere formation and sorting,
+    dual-output recovery into abrasive and fused-cast refractory products, and
+    composition rebalancing before recasting.
+  nmg_integration_state: "NOT YET MAPPED TO A SPECIFIC NMG ARCHITECTURE"
+
+relationship_to_registered_patent:
+  related_record: "NMG-PAT-CN106083000A-001"
+  relationship: >
+    Both records concern recovery of alumina ceramic waste, but they use materially
+    different process architectures. CN106083000A centers on fine-powder
+    reclamation, additive reconditioning, remolding, and re-sintering; CN103214250B
+    centers on coarse waste-brick preprocessing, binder-assisted balling,
+    electric-arc remelting, sphere formation/sorting, composition rebalance,
+    and fused casting.
+  authority_rule: "Related technical lineage does not merge inventorship, assignee authority, or claim scope."
+
+history_dataset_linkage:
+  current_master_dataset_checked: "NMG_GLASSBOX_HISTORY_MASTER_2026-08-04_2026-08-26"
+  exact_identifier_occurrences_found: 0
+  rule: >
+    Do not create a historical-browser-event row unless a working history export
+    contains the patent identifier or corresponding event. Patent-source
+    registration and history-event evidence remain separate registrar objects.
+
+translation_and_text_integrity:
+  state: "SOURCE-FAITHFUL / TRANSLATION-CAUTION"
+  notes:
+    - "The supplied English text appears machine translated from Chinese."
+    - "Awkward translated terms are not silently normalized into new source claims."
+    - "Quantitative values are preserved as source-reported process parameters and require original-language verification before engineering reuse."
+
+license_or_eula: "N/A"
+license_identifier: "N/A"
+license_text_location: "N/A"
+legal_use_authority: "Public patent publication as source reference; no separate NMG license asserted"
+accepted_or_effective_date: "N/A"
+
+service_provider: "N/A"
+service_name: "N/A"
+account_context: "N/A"
+access_scope: "N/A"
+service_environment: "N/A"
+service_approval_state: "N/A"
+
+sam_mapping: UNASSIGNED
+service_code: UNASSIGNED
+contract_or_award_authority: UNASSIGNED
+
+validation_state: "SOURCE-RECORDED / NOT INDEPENDENTLY VERIFIED IN THIS ENTRY"
+validation_methodology: >
+  Source-faithful registrar transcription from the user-supplied patent record.
+  Later translation, legal-status, citation, materials-property, lifecycle, or
+  manufacturing verification should be attached as separate verification edges
+  rather than overwriting this record.
+known_uncertainty:
+  - "Machine-translation terminology may distort some technical wording."
+  - "Legal status is recorded as supplied and not independently checked in this entry."
+  - "Product performance and impurity-removal effectiveness remain source claims until separately verified."
+prohibited_claims:
+  - "Do not attribute the patent to NMG."
+  - "Do not treat the patent as endorsement of NMG."
+  - "Do not infer current enforceability beyond the supplied record."
+  - "Do not claim regenerated products are equivalent to virgin refractory products without separate evidence."
+  - "Do not promote this source directly into an operational NMG manufacturing process without materials and process validation."
+
+source_provenance:
+  source_type: "USER-SUPPLIED-PATENT-TEXT"
+  source_identifier: "CN103214250B"
+cryptographic_integrity: "PENDING-SOURCE-FILE-HASH"
+telemetry_return: "N/A"
+calibrated_measurement: "N/A"
+physical_event: "N/A"
+
+engine_contributors:
+  - provider: "OpenAI"
+    role: "Registrar structuring only"
+human_authority: "Juan L. Noriega"
+
+supersedes: []
+superseded_by: []
+conflicts_with: []
+related_records:
+  - "CN101792317B — cited prior art as supplied"
+  - "CN102241520B — cited prior art as supplied"
+  - "CN106083000A — separately registered alumina ceramic waste recovery process"
+notes:
+  - "This record captures a dual-product recovery route: abrasive spheres plus fused-cast refractory brick."
+  - "Current Glassbox history master contains no exact CN103214250B occurrence; no history event was fabricated."
