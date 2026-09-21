@@ -1,0 +1,148 @@
+registrar_id: NMG-PAT-US4923019A-001
+object_class: PATENT
+title: "Thermochemical penetrator for ice and frozen soils"
+canonical_name: "US4923019A — Thermochemical penetrator for ice and frozen soils"
+status: HISTORICAL
+created_at: "1989-02-28"
+observed_at: "2026-09-21"
+registered_at: "2026-09-21"
+
+source_or_origin: "User-supplied patent text and bibliographic record in current registrar session"
+upstream_author_or_institution:
+  inventor:
+    - "Peter H. F. Gammon"
+  assignee_as_supplied:
+    - "Arctic Systems Ltd"
+jurisdiction: "United States"
+publication_number: "US4923019A"
+application_number: "US07/316,844"
+priority:
+  date: "1989-02-28"
+  related_application_as_supplied:
+    - "CA000597033A"
+filing_date: "1989-02-28"
+grant_date: "1990-05-08"
+publication_date: "1990-05-08"
+anticipated_expiration_as_supplied: "2009-02-28"
+legal_status_as_supplied: "Expired - Fee Related"
+
+classification_as_supplied:
+  primary: "E21B7/008"
+  text: "Drilling ice or a formation covered by ice"
+
+technical_scope:
+  source_summary: >
+    Apparatus and method for penetrating ice, frozen soil, or other low-melting
+    solid material using a confined thermochemical reaction chamber. An
+    immobilized first reactant is contacted by an aqueous second reactant;
+    the exothermic reaction produces hot liquid and/or steam that is discharged
+    through a penetrator tip or nozzle to melt the surrounding material.
+  architecture_features_as_supplied:
+    - "Confined thermochemical reaction chamber."
+    - "Substantially immobilized first thermochemical reactant."
+    - "Controlled delivery of an aqueous second reactant."
+    - "Discharge of hot aqueous reaction product and/or steam at the penetrator tip."
+    - "Optional recirculation of melt water."
+    - "Alternative two-stage arrangement in which melt water forms the reactive aqueous solution before entering the principal reaction chamber."
+    - "Alternative cyclic / oscillating design using a shared inlet-outlet orifice."
+    - "Thermally conductive end tip and localized thermal isolation."
+  deployment_concepts_as_supplied:
+    - "Surface-deployed reactor with tube/nozzle penetrating the ice."
+    - "Elongated penetrator body moving through the melt channel."
+    - "Downward or upward penetration depending on density/buoyancy and applied force."
+    - "Instrumentation or payload passage through ice."
+
+source_claim_boundary:
+  patent_claims_establish: >
+    The patent's disclosed device arrangements, claimed process steps, and
+    examples as stated in the historical patent record.
+  patent_claims_do_not_establish:
+    - "Independent replication."
+    - "Present-day commercial practice."
+    - "Present legal enforceability."
+    - "NMG authorship or invention date."
+    - "Safety qualification for modern deployment."
+    - "Operational approval for field use."
+    - "Performance of any NMG architecture."
+
+historical_lineage_role:
+  proposed_role: "THERMOCHEMICAL ICE / FROZEN-SOIL PENETRATION PRIOR-ART RECORD"
+  rationale: >
+    Relevant to historical reconstruction of compact thermal penetration
+    architectures where stored chemical potential is converted inside a
+    confined reaction boundary into a directed thermal output for physical
+    state change. The record is useful for studying chamber isolation,
+    reactant-flow control, thermal transfer, melt-water recirculation,
+    cyclic operation, and payload/penetrator geometry.
+  nmg_integration_state: "NOT YET MAPPED TO A SPECIFIC NMG ARCHITECTURE"
+
+history_dataset_linkage:
+  current_master_dataset_checked: "NMG_GLASSBOX_HISTORY_MASTER_2026-08-04_2026-08-26"
+  exact_identifier_occurrences_found: 0
+  rule: >
+    Do not create a historical-browser-event row for this patent unless a
+    working history export contains the event. Patent registration and
+    browser-history evidence remain distinct registrar objects.
+
+safety_and_operational_boundary:
+  state: "SOURCE-REGISTRATION-ONLY"
+  restrictions:
+    - "This registrar entry does not provide deployment authorization."
+    - "Reactive chemical recipes, quantities, concentrations, charging procedures, or field-operating instructions are not promoted into an NMG operational record by this registration."
+    - "Any future physical implementation would require independent safety, environmental, materials-compatibility, pressure, thermal, and Human-in-Command review."
+
+license_or_eula: "N/A"
+license_identifier: "N/A"
+license_text_location: "N/A"
+legal_use_authority: "Public patent publication as source reference; no separate NMG license asserted"
+accepted_or_effective_date: "N/A"
+
+service_provider: "N/A"
+service_name: "N/A"
+account_context: "N/A"
+access_scope: "N/A"
+service_environment: "N/A"
+service_approval_state: "N/A"
+
+sam_mapping: UNASSIGNED
+service_code: UNASSIGNED
+contract_or_award_authority: UNASSIGNED
+
+validation_state: "SOURCE-RECORDED / NOT INDEPENDENTLY VERIFIED IN THIS ENTRY"
+validation_methodology: >
+  Source-faithful registrar transcription from the user-supplied patent record.
+  Later technical, legal-status, family, citation, safety, or claim verification
+  is attached as a separate verification edge rather than overwriting this record.
+known_uncertainty:
+  - "Legal status and assignee history are recorded as supplied and not independently checked in this entry."
+  - "The supplied patent text contains detailed chemistry that has not been independently validated here."
+  - "Patent performance examples remain source claims unless separately reproduced."
+prohibited_claims:
+  - "Do not attribute the patent to NMG."
+  - "Do not treat the patent as endorsement of NMG."
+  - "Do not infer present enforceability from the historical patent record."
+  - "Do not treat patent disclosure as operational safety validation."
+  - "Do not promote the patent into a deployed NMG penetrator without a separate authorized engineering record."
+
+source_provenance:
+  source_type: "USER-SUPPLIED-PATENT-TEXT"
+  source_identifier: "US4923019A"
+cryptographic_integrity: "PENDING-SOURCE-FILE-HASH"
+telemetry_return: "N/A"
+calibrated_measurement: "N/A"
+physical_event: "N/A"
+
+engine_contributors:
+  - provider: "OpenAI"
+    role: "Registrar structuring only"
+human_authority: "Juan L. Noriega"
+
+supersedes: []
+superseded_by: []
+conflicts_with: []
+related_records:
+  - "US4651834 — prior-art ice-penetrating device as supplied"
+  - "CA977737 — prior-art thermochemical ice penetrator as supplied"
+notes:
+  - "The source describes both continuous-flow and oscillating / steam-collapse embodiments."
+  - "Current Glassbox history master contains no exact US4923019A occurrence; no history event was fabricated."
