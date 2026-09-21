@@ -18,6 +18,7 @@ Patent records preserve technical lineage, claim boundaries, cited prior art, as
 | NMG-PAT-CN103214250B-001 | CN103214250B | Recycling method for waste alumina brick | HISTORICAL | Alumina refractory brick closed-loop remelt / recast prior-art record |
 | NMG-PAT-FR2604575A1-001 | FR2604575A1 | Ferromagnetic resonator having temperature compensation means which uses precoded compensation data | HISTORICAL | YIG / ferrimagnetic resonator temperature-compensation prior-art record |
 | NMG-PAT-EP2390292A1-001 | EP2390292A1 | Magnetic ink composition, magnetic ink character recognition process, and magnetically readable structures | HISTORICAL | Carbon-nanofoam magnetic print / MICR / readable-structure prior-art record |
+| NMG-PAT-US10540878B2-001 | US10540878B2 | Remote sensors for detecting alert conditions and notifying a central station | HISTORICAL | EFAN edge-sensor / local-processing / host-feedback prior-art record |
 
 ### US2837483A
 
@@ -78,3 +79,16 @@ The supplied patent record describes carbon nanofoam as the magnetic component o
 The registrar keeps those stages separate: the printed mark is not the magnetic material itself; the magnetic material is not the scanner signal; and the scanner signal is not automatically authenticated identity or evidentiary truth.
 
 The current Glassbox history master for 2026-08-04 through 2026-08-26 contains **0 exact occurrences** of `EP2390292A1`. Therefore no browser-history event has been created from the existing working-file dataset.
+
+
+### US10540878B2
+
+Source record: `registrar/patents/US10540878B2.yaml`
+
+Source-authority BOM: `registrar/patents/US10540878B2-SOURCE-AUTHORITY-BOM.md`
+
+The patent-family record directly discloses the EFAN edge-hardware substrate: local sensors, microprocessor processing, storage, receivers, POTS/cellular/RF return paths, GPS location, local alerting, host feedback, multi-sensor analysis, and multiple named sensor technologies. The registrar therefore treats those components and functions as upstream patent authority.
+
+DUAL MODAL™ · EST. 2022 remains downstream architecture. RC-10…RC-24 assignments, Z_k evidence tuples, NExUS partitioning, and dual-engine isolation/arbiter functions are recorded as DUAL MODAL synthesis rather than retroactively attributed to the patent.
+
+The BOM intentionally leaves RC Cell values as `PENDING-DUAL-MODAL-MAPPING` where the source record does not itself define the RC assignment.
