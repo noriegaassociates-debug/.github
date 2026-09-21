@@ -16,6 +16,7 @@ Patent records preserve technical lineage, claim boundaries, cited prior art, as
 | NMG-PAT-US4923019A-001 | US4923019A | Thermochemical penetrator for ice and frozen soils | HISTORICAL | Thermochemical ice / frozen-soil penetration prior-art record |
 | NMG-PAT-CN106083000A-001 | CN106083000A | Recycling technique of aluminium oxide ceramics waste product | HISTORICAL | Alumina ceramic waste recovery / re-sintering prior-art record |
 | NMG-PAT-CN103214250B-001 | CN103214250B | Recycling method for waste alumina brick | HISTORICAL | Alumina refractory brick closed-loop remelt / recast prior-art record |
+| NMG-PAT-FR2604575A1-001 | FR2604575A1 | Ferromagnetic resonator having temperature compensation means which uses precoded compensation data | HISTORICAL | YIG / ferrimagnetic resonator temperature-compensation prior-art record |
 
 ### US2837483A
 
@@ -54,3 +55,14 @@ The supplied patent record describes recovery of post-service alumina refractory
 This record is technically distinct from CN106083000A. CN106083000A follows a powder-reclamation and re-sintering pathway; CN103214250B follows a remelt / sphere-sort / reblend / fused-cast pathway and creates two disclosed recovery products: alumina abrasive spheres and fused-cast alumina refractory brick.
 
 The current Glassbox history master for 2026-08-04 through 2026-08-26 contains **0 exact occurrences** of `CN103214250B`. Therefore no browser-history event has been created for this patent from that dataset.
+
+
+### FR2604575A1
+
+Source record: `registrar/patents/FR2604575A1.yaml`
+
+The supplied patent record describes a ferrimagnetic thin-film resonator, including YIG embodiments, whose physical temperature is measured and converted into a compensation command through precoded data stored in memory. The resulting compensation current drives a separate coil that adds magnetic field at the resonator, offsetting the temperature-dependent resonance shift.
+
+The registrar treats the architecture as a closed physical-digital-physical compensation chain: measured temperature is not the compensation table, the table is not the drive current, and the drive current is not the resulting magnetic field or resonance state.
+
+The public patent record identifies FR2604575A1 as a Sony filing with Japanese priority on 1986-09-29 and identifies US4755780A as the United States family member. The current Glassbox history master for 2026-08-04 through 2026-08-26 contains **0 exact occurrences** of either identifier, so no history event has been fabricated.
