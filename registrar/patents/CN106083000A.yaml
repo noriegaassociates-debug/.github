@@ -1,0 +1,153 @@
+registrar_id: NMG-PAT-CN106083000A-001
+object_class: PATENT
+title: "A kind of recycling technique of aluminium oxide ceramics waste product"
+canonical_name: "CN106083000A — Recycling technique of aluminium oxide ceramics waste product"
+status: HISTORICAL
+created_at: "2016-06-20"
+observed_at: "2026-09-21"
+registered_at: "2026-09-21"
+
+source_or_origin: "User-supplied patent text and bibliographic record in current registrar session"
+upstream_author_or_institution:
+  inventors_as_supplied:
+    - "吴硕体"
+    - "罗教平"
+    - "陈国兵"
+  assignee_as_supplied:
+    - "Hunan Zhongyi Fine Ceramics Manufacture Co"
+jurisdiction: "China"
+publication_number: "CN106083000A"
+application_number: "CN201610440122.1A"
+priority:
+  country: "China"
+  date: "2016-06-20"
+filing_date: "2016-06-20"
+publication_date: "2016-11-09"
+legal_status_as_supplied: "Pending"
+
+classification_as_supplied:
+  primary: "C04B35/10"
+  text: "Shaped ceramic products characterised by their composition; ceramics compositions; processing powders of inorganic compounds preparatory to the manufacturing of ceramic products based on oxide ceramics based on aluminium oxide"
+
+technical_scope:
+  source_summary: >
+    Recycling process for alumina-ceramic waste, sintering bedding/padding,
+    and sintering scrap. The disclosed process removes impurities, cleans,
+    dries, crushes, fine-grinds the recovered material with processing aids,
+    adds silica, magnesium, and kaolin, forms a cellular article, and sinters
+    under vacuum or a protective atmosphere to create regenerated alumina
+    ceramic material.
+  process_stages_as_supplied:
+    - "Remove impurities from alumina ceramic waste, sintering bedding/padding, and sintering scrap; clean, degrease, dry, and crush."
+    - "Fine-grind to 2–6 micrometers with materials identified in the supplied English text as polypropylene acid, ammonia water, and drainage/water."
+    - "Add silicon dioxide, magnesium, and kaolin."
+    - "Vibrate/mix, rewet, and mold into cellular products."
+    - "Sinter under protective atmosphere or vacuum."
+    - "Break/process the sintered material to obtain regenerated alumina ceramic material."
+  quantitative_parameters_as_supplied:
+    fine_grinding_particle_size: "2–6 µm"
+    waste_to_processing_aids_ratio: "10:2:1:3 as supplied"
+    silicon_dioxide_addition: "1% of powder mass"
+    magnesium_addition: "0.3% of powder mass"
+    kaolin_addition: "5% of powder mass"
+    vibration_time: "2 hours"
+    sintering_temperature: "1350–1450 °C"
+    hold_time: "2–4 hours"
+    protective_atmosphere: "Nitrogen"
+  embodiments_as_supplied:
+    - "Example 1: 4 µm fine grinding; vacuum sintering at 1400 °C for 3 h."
+    - "Example 2: 4 µm fine grinding; nitrogen sintering at 1450 °C for 3 h."
+    - "Example 3: 5 µm fine grinding; vacuum sintering at 1450 °C for 2.5 h."
+
+source_claim_boundary:
+  patent_claims_establish: >
+    The patent's disclosed recycling sequence, claimed compositional additions,
+    processing conditions, and example embodiments as stated by the patent record.
+  patent_claims_do_not_establish:
+    - "Independent replication."
+    - "Current commercial adoption."
+    - "Current legal enforceability or granted status beyond the supplied record."
+    - "NMG authorship or invention date."
+    - "Material-property equivalence to virgin alumina ceramics."
+    - "Environmental superiority absent lifecycle or emissions evidence."
+    - "Suitability for any safety-critical NMG component."
+
+historical_lineage_role:
+  proposed_role: "ALUMINA CERAMIC WASTE RECOVERY / RE-SINTERING PRIOR-ART RECORD"
+  rationale: >
+    Relevant to historical reconstruction of closed-loop ceramic manufacturing,
+    powder reclamation, contamination removal, particle-size restoration,
+    additive reconditioning, remolding, and re-sintering of alumina-bearing
+    ceramic waste streams.
+  nmg_integration_state: "NOT YET MAPPED TO A SPECIFIC NMG ARCHITECTURE"
+
+history_dataset_linkage:
+  current_master_dataset_checked: "NMG_GLASSBOX_HISTORY_MASTER_2026-08-04_2026-08-26"
+  exact_identifier_occurrences_found: 0
+  rule: >
+    Do not create a historical-browser-event row unless a working history export
+    contains the patent identifier or corresponding event. Patent-source
+    registration and history-event evidence remain separate registrar objects.
+
+translation_and_text_integrity:
+  state: "SOURCE-FAITHFUL / TRANSLATION-CAUTION"
+  notes:
+    - "The supplied English text appears machine translated from Chinese."
+    - "Terms such as 'polypropylene acid' and 'drainage' are preserved as supplied and should be checked against the Chinese specification before chemical or process interpretation."
+    - "Quantitative parameters are retained as source-reported values, not independently verified process recommendations."
+
+license_or_eula: "N/A"
+license_identifier: "N/A"
+license_text_location: "N/A"
+legal_use_authority: "Public patent publication as source reference; no separate NMG license asserted"
+accepted_or_effective_date: "N/A"
+
+service_provider: "N/A"
+service_name: "N/A"
+account_context: "N/A"
+access_scope: "N/A"
+service_environment: "N/A"
+service_approval_state: "N/A"
+
+sam_mapping: UNASSIGNED
+service_code: UNASSIGNED
+contract_or_award_authority: UNASSIGNED
+
+validation_state: "SOURCE-RECORDED / NOT INDEPENDENTLY VERIFIED IN THIS ENTRY"
+validation_methodology: >
+  Source-faithful registrar transcription from the user-supplied patent record.
+  Any later translation, legal-status, family, citation, materials-property,
+  environmental, or process verification should be attached as a separate
+  verification edge rather than overwriting this record.
+known_uncertainty:
+  - "Machine-translation terminology may distort chemical names and process wording."
+  - "Legal status is recorded as supplied and not independently checked in this entry."
+  - "Material performance of regenerated product is not established here beyond the patent's own disclosure."
+prohibited_claims:
+  - "Do not attribute the patent to NMG."
+  - "Do not treat the patent as endorsement of NMG."
+  - "Do not infer present enforceability from the supplied status."
+  - "Do not claim equivalence to virgin alumina ceramic without separate evidence."
+  - "Do not promote the process into a qualified NMG manufacturing route without materials testing and validation."
+
+source_provenance:
+  source_type: "USER-SUPPLIED-PATENT-TEXT"
+  source_identifier: "CN106083000A"
+cryptographic_integrity: "PENDING-SOURCE-FILE-HASH"
+telemetry_return: "N/A"
+calibrated_measurement: "N/A"
+physical_event: "N/A"
+
+engine_contributors:
+  - provider: "OpenAI"
+    role: "Registrar structuring only"
+human_authority: "Juan L. Noriega"
+
+supersedes: []
+superseded_by: []
+conflicts_with: []
+related_records:
+  - "CN102153362A — prior-art alumina foam ceramic waste recovery method as supplied"
+notes:
+  - "The patent is especially relevant to ceramic circularity and powder-reclamation lineage."
+  - "Current Glassbox history master contains no exact CN106083000A occurrence; no history event was fabricated."
