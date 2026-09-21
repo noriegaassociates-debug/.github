@@ -1,0 +1,115 @@
+registrar_id: NMG-PAT-US10540878B2-001
+object_class: PATENT
+title: "Remote sensors for detecting alert conditions and notifying a central station"
+canonical_name: "US10540878B2 — Remote sensors for detecting alert conditions and notifying a central station"
+status: HISTORICAL
+created_at: "2018-08-01"
+observed_at: "2026-09-21"
+registered_at: "2026-09-21"
+
+source_or_origin: "User-supplied patent analysis plus public patent-family cross-check"
+upstream_author_or_institution:
+  inventors:
+    - "Charles Eric Hunter"
+    - "Bernard L. Ballou"
+    - "John Hebrank"
+    - "James Fallon"
+    - "Robert Summer"
+  assignee_as_public_record:
+    - "Google LLC"
+    - "World Theatre Inc"
+jurisdiction: "United States"
+publication_number: "US10540878B2"
+application_number: "US16/051,781"
+priority_date: "2001-10-10"
+filing_date: "2018-08-01"
+publication_date_application: "2019-01-31"
+grant_date: "2020-01-21"
+legal_status_as_public_aggregator: "Expired - Fee Related"
+
+technical_scope:
+  source_summary: >
+    Emergency Feedback and Notification (EFAN) architecture using local sensor-equipped
+    devices, local processing, nonvolatile storage, communications receivers/backchannels,
+    GPS-enabled location, alerting, host feedback, and multi-sensor analysis.
+  direct_hardware_disclosure:
+    - "EFAN device 110"
+    - "receiver / antenna 1101"
+    - "sensor devices 1104"
+    - "nonvolatile storage 1106"
+    - "microprocessor 1108"
+    - "backchannel 115"
+    - "front-end receiver 202"
+    - "NWR receiver 210"
+    - "GPS receiver 225"
+    - "secure microprocessor 319"
+    - "power source / UPS 324"
+    - "ROM 325"
+    - "FLASH 326"
+    - "NVRAM 327"
+    - "RAM 328"
+    - "CPU 329"
+    - "hard drive 331"
+    - "internal sensor array 333"
+    - "air-intake / fan sampling system 335"
+    - "I/O ports 340"
+    - "interfaces 350"
+  direct_functional_disclosure:
+    - "local sensor measurement"
+    - "threshold and trend analysis"
+    - "multi-sensor relationship/correlation analysis"
+    - "local alert generation"
+    - "host feedback and request for additional information"
+    - "GPS/location reporting"
+    - "message acknowledgement / alternate communications paths"
+    - "ID/location/time cross-reference in incorporated family text"
+
+source_authority_rule:
+  patent_source: >
+    Hardware, sensor families, physical sensing mechanisms, local threshold/trend
+    processing, communications paths, GPS/location functions, host-feedback logic,
+    and disclosed multi-sensor analysis remain DIRECT PATENT DISCLOSURE.
+  dual_modal_synthesis: >
+    RC-10 through RC-24 assignments, Z_k evidence tuples, NExUS motherboard
+    partitions, dual-engine isolation, and arbiter functions are downstream DUAL MODAL
+    architectural mappings/formalizations and are not attributed to this patent.
+
+history_dataset_linkage:
+  rule: >
+    Browser chronology must be derived from working history files. Patent registration
+    does not itself create a historical browser event.
+
+validation_state: "SOURCE-ESTABLISHED FOR DISCLOSED PATENT CONTENT / DUAL MODAL MAPPING SEPARATE"
+validation_methodology: >
+  User-supplied source reconstruction cross-checked against the public patent-family
+  record including US10540878B2, US9847008B2, US9613521B2, US9147338B2,
+  US8412147B2, and US7233781B2.
+known_uncertainty:
+  - "Some sensor-family details are incorporated or repeated through family lineage rather than uniquely introduced in the final continuation."
+  - "Public legal-status aggregators are not substitutes for jurisdiction-specific legal advice."
+prohibited_claims:
+  - "Do not attribute EFAN hardware invention to DUAL MODAL or NMG."
+  - "Do not attribute DUAL MODAL RC mappings or NExUS synthesis to the patent."
+  - "Do not treat patent disclosure as physical validation of a DUAL MODAL implementation."
+  - "Do not collapse sensor reading, local logic, host interpretation, and human authority into one state."
+
+source_provenance:
+  source_type: "PATENT-FAMILY"
+  source_identifier: "US10540878B2"
+  public_anchor: "https://patents.google.com/patent/US10540878B2/en"
+
+engine_contributors:
+  - provider: "OpenAI"
+    role: "Registrar structuring and source cross-check"
+human_authority: "Juan L. Noriega"
+
+related_records:
+  - "US7233781B2"
+  - "US8412147B2"
+  - "US9147338B2"
+  - "US9613521B2"
+  - "US9847008B2"
+  - "US10062260B2"
+notes:
+  - "A separate source-authority hardware BOM preserves one row per component/sensor family."
+  - "DUAL MODAL™ · EST. 2022 remains a downstream architectural synthesis boundary."
