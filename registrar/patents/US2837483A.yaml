@@ -1,0 +1,160 @@
+registrar_id: NMG-PAT-US2837483A-001
+object_class: PATENT
+title: "Method of making a permanent magnet"
+canonical_name: "US2837483A — Method of making a permanent magnet"
+status: HISTORICAL
+created_at: "1955-04-18"
+observed_at: "2026-09-21"
+registered_at: "2026-09-21"
+
+source_or_origin: "User-supplied patent text and bibliographic record in current registrar session"
+upstream_author_or_institution:
+  inventors:
+    - "Petrus Johannes Hakker"
+    - "Gerard Hugo Weber"
+  assignee_as_supplied:
+    - "US Philips Corp"
+    - "North American Philips Co Inc"
+jurisdiction: "United States"
+publication_number: "US2837483A"
+application_number: "US502237A"
+priority:
+  country: "Netherlands"
+  date: "1954-04-20"
+filing_date: "1955-04-18"
+grant_date: "1958-06-03"
+publication_date: "1958-06-03"
+anticipated_expiration_as_supplied: "1975-06-03"
+legal_status_as_supplied: "Expired - Lifetime"
+
+classification_as_supplied:
+  primary: "C04B35/62685"
+  text: "Treating the starting powders individually or as mixtures characterised by the order of addition of constituents or additives"
+
+technical_scope:
+  source_summary: >
+    Method for producing anisotropic permanent magnets based principally on
+    hexagonal ferrite crystals of nominal composition MO·6Fe2O3, where M is
+    barium, strontium, or lead, with limited calcium substitution. The process
+    uses a mixture of presintered ferrite material and unreacted precursor
+    oxides, magnetic orientation while the mixture is mobile, and final
+    sintering to form a dense anisotropic magnet.
+  process_stages_as_supplied:
+    - "Prepare isotropic ferrite material from iron oxide and barium/strontium/lead oxide precursor."
+    - "Magnetically orient the material while molding/pressing in a mobile or suspended state."
+    - "Final sintering at elevated temperature to densify the oriented body."
+  claimed_process_features_as_supplied:
+    - "Use up to four times the weight of precursor oxide mixture relative to reacted permanent-magnetic material."
+    - "Magnetically orient the magnetic material while the mixture is mobile."
+    - "Sinter at about 1100–1400 C."
+    - "Target body density at least 4."
+    - "Principal crystal form: hexagonal ferrite."
+  optional_modifiers_as_supplied:
+    - "calcium oxide / calcium carbonate"
+    - "barium oxide / barium carbonate / barium sulfate"
+    - "lanthanum oxide"
+    - "bismuth oxide"
+    - "arsenic trioxide"
+    - "antimony pentoxide"
+    - "barium ferrite"
+    - "calcium ferrite"
+
+examples_as_supplied:
+  example_I:
+    precursor: "BaCO3 + Fe2O3, nominal molecular ratio 1:5.5"
+    presintering: "about 1280 C"
+    final_sintering: "about 1240–1250 C for about 10 min"
+  example_II:
+    modifier: "about 0.5 wt% CaCO3"
+  example_III:
+    precursor: "SrCO3 + Fe2O3"
+    final_sintering: "about 1275 C"
+  example_IV:
+    final_sintering: "about 1270 C"
+
+source_claim_boundary:
+  patent_claims_establish: >
+    The patent's claimed method and disclosed experimental examples as stated
+    by the inventors/patent record.
+  patent_claims_do_not_establish:
+    - "Independent replication."
+    - "Current commercial practice."
+    - "Current legal enforceability."
+    - "NMG authorship."
+    - "NMG invention date."
+    - "Scientific superiority over later permanent-magnet processes."
+    - "Operational qualification of any NMG system."
+
+historical_lineage_role:
+  proposed_role: "FOUNDATIONAL FERRITE / ANISOTROPIC MAGNET PROCESS PRIOR-ART RECORD"
+  rationale: >
+    The record is relevant to historical reconstruction of anisotropic ferrite
+    permanent-magnet manufacturing, especially precursor preparation,
+    presintering, magnetic alignment, modifiers, densification, and the
+    relationship among crystal structure, remanence, coercivity, density, and
+    energy product.
+  nmg_integration_state: "NOT YET MAPPED TO A SPECIFIC NMG ARCHITECTURE"
+
+history_dataset_linkage:
+  current_master_dataset_checked: "NMG_GLASSBOX_HISTORY_MASTER_2026-08-04_2026-08-26"
+  exact_identifier_occurrences_found: 0
+  rule: >
+    Do not create a historical-browser-event row for this patent unless a
+    working history export contains the event. Registration of the patent as a
+    source object is separate from history-event evidence.
+
+license_or_eula: "N/A"
+license_identifier: "N/A"
+license_text_location: "N/A"
+legal_use_authority: "Public patent publication as source reference; no separate NMG license asserted"
+accepted_or_effective_date: "N/A"
+
+service_provider: "N/A"
+service_name: "N/A"
+account_context: "N/A"
+access_scope: "N/A"
+service_environment: "N/A"
+service_approval_state: "N/A"
+
+sam_mapping: UNASSIGNED
+service_code: UNASSIGNED
+contract_or_award_authority: UNASSIGNED
+
+validation_state: "SOURCE-RECORDED / NOT INDEPENDENTLY VERIFIED IN THIS ENTRY"
+validation_methodology: >
+  Source-faithful registrar transcription from the user-supplied patent record.
+  Any later technical, legal-status, family, citation, or claim verification
+  should be attached as a separate verification edge rather than overwriting
+  this record.
+known_uncertainty:
+  - "OCR/transcription artifacts are present in the supplied patent text."
+  - "Chemical formula typography in the supplied text is degraded in places."
+  - "Tables should be verified against the patent PDF before quantitative reuse."
+  - "Legal status and assignee history are recorded here as supplied, not independently checked."
+prohibited_claims:
+  - "Do not attribute the patent to NMG."
+  - "Do not treat the patent as endorsement of NMG."
+  - "Do not infer present enforceability from the historical patent record."
+  - "Do not convert patent disclosure into physical validation of an NMG design."
+
+source_provenance:
+  source_type: "USER-SUPPLIED-PATENT-TEXT"
+  source_identifier: "US2837483A"
+cryptographic_integrity: "PENDING-SOURCE-FILE-HASH"
+telemetry_return: "N/A"
+calibrated_measurement: "N/A"
+physical_event: "N/A"
+
+engine_contributors:
+  - provider: "OpenAI"
+    role: "Registrar structuring only"
+human_authority: "Juan L. Noriega"
+
+supersedes: []
+superseded_by: []
+conflicts_with: []
+related_records:
+  - "US2700023A — cited prior art as supplied"
+notes:
+  - "Patent text includes a Certificate of Correction dated 1958-08-26."
+  - "Current history master contains no exact US2837483A occurrence; no history event was fabricated."
