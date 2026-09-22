@@ -1,0 +1,159 @@
+registrar_id: NMG-PAT-US2212198A-001
+object_class: PATENT
+title: "Transformer of the constant or limited current type"
+canonical_name: "US2212198A — Transformer of the constant or limited current type"
+status: HISTORICAL
+created_at: "1940-03-25"
+observed_at: "2026-09-21"
+registered_at: "2026-09-21"
+
+source_or_origin: "User-supplied patent text and bibliographic record in current registrar session"
+upstream_author_or_institution:
+  inventor:
+    - "Joseph G. Sola"
+  assignee_as_supplied:
+    - "Sola Electric Co"
+jurisdiction: "United States"
+publication_number: "US2212198A"
+application_number: "US325720A"
+filing_date: "1940-03-25"
+priority_date: "1940-03-25"
+grant_date: "1940-08-20"
+publication_date: "1940-08-20"
+anticipated_expiration_as_supplied: "1957-08-20"
+legal_status_as_supplied: "Expired - Lifetime"
+classification_as_supplied:
+  primary: "H01F38/10"
+  text: "Ballasts, e.g. for discharge lamps"
+
+technical_scope:
+  source_summary: >
+    Constant- or limited-current transformer architecture using an input winding,
+    an intermediate winding, a load winding, controlled magnetic leakage paths,
+    non-magnetic gaps, and a capacitor forming a resonant circuit with at least
+    the intermediate winding. The patent describes regulation behavior in which
+    the intermediate winding voltage remains substantially constant while output
+    voltage falls as load current approaches a limited value.
+  source_disclosed_components:
+    - "Magnetic circuit / core 10"
+    - "Straight core bar 11"
+    - "Magnetic return path / yoke 12"
+    - "Primary / input winding 13"
+    - "Intermediate winding 16"
+    - "Condenser / capacitor 19"
+    - "Load winding 20"
+    - "Leakage-reactance magnetic shunts 12b and 12c"
+    - "Non-magnetic / air gaps 23"
+    - "Auxiliary winding 24 in selected embodiments"
+    - "Intermediate tap 26 in selected embodiment"
+  source_disclosed_functions:
+    - "Loose magnetic coupling between input and intermediate windings."
+    - "Resonant operation of intermediate winding with capacitor."
+    - "Substantially constant intermediate-winding voltage above a critical input condition."
+    - "Controlled magnetic flux diversion through shunts."
+    - "Load-current limitation through changing effective coupling and leakage reactance."
+    - "Output-voltage collapse toward short circuit without excessive load-winding current."
+    - "Selected embodiments use auxiliary winding compensation or autotransformer connections."
+
+source_physical_chain: >
+  AC INPUT -> PRIMARY MAGNETIZATION -> LEAKAGE-SHUNTED MAGNETIC COUPLING ->
+  INTERMEDIATE RESONANT WINDING + CAPACITOR -> CONTROLLED FLUX DISTRIBUTION ->
+  LOAD WINDING -> LIMITED / SELF-REGULATED CURRENT OUTPUT
+
+source_claim_boundary:
+  patent_claims_establish: >
+    The disclosed magnetic-core, winding, shunt, gap, and resonant-capacitor
+    arrangements and the claimed constant/limited-current behavior described by
+    the patent.
+  patent_claims_do_not_establish:
+    - "NMG authorship."
+    - "DUAL MODAL™ authorship."
+    - "Any N-TRANSFORMER™ claim."
+    - "Modern semiconductor control, telemetry, computational governance, or digital feedback."
+    - "Current commercial performance or qualification."
+    - "Physical validation of any later NMG architecture."
+
+historical_lineage_role:
+  proposed_role: "RESONANT / LEAKAGE-REACTANCE LIMITED-CURRENT TRANSFORMER PRIOR-ART RECORD"
+  rationale: >
+    Relevant to historical reconstruction of transformer architectures in which
+    physical geometry, magnetic leakage, resonance, and load-dependent coupling
+    generate a bounded current response without relying on later digital control.
+    The source provides a clear example of regulation emerging from physical
+    arrangement and electromagnetic state.
+  nmg_integration_state: "MAPPED AS SOURCE LINEAGE ONLY — NOT IDENTICAL TO N-TRANSFORMER™"
+
+dual_modal_authority_split:
+  patent_source_authority:
+    - "Core geometry"
+    - "Windings"
+    - "Leakage-reactance shunts"
+    - "Air gaps"
+    - "Resonant capacitor"
+    - "Constant/limited-current behavior"
+    - "Load-dependent flux redistribution"
+  downstream_dual_modal_synthesis:
+    - "RC-cell assignments"
+    - "Z_k evidence tuples"
+    - "Telemetry and environmental-memory requirements"
+    - "Human-in-Command authority"
+    - "Digital observer register"
+    - "NExUS partitioning"
+    - "N-TRANSFORMER™ nomenclature and governance"
+  rule: >
+    US2212198A supplies historical transformer physics and topology. DUAL MODAL™
+    may map those functions into a later architecture, but does not retroactively
+    attribute DUAL MODAL abstractions to Sola's patent.
+
+history_dataset_linkage:
+  current_master_dataset_checked: "NMG_GLASSBOX_HISTORY_MASTER_2026-08-04_2026-08-26"
+  exact_identifier_occurrences_found: 0
+  rule: >
+    Do not create a browser-history event unless a working history export contains
+    US2212198A or a verified matching event.
+
+license_or_eula: "N/A"
+license_identifier: "N/A"
+legal_use_authority: "Public patent publication as source reference; no separate NMG license asserted"
+
+sam_mapping: UNASSIGNED
+service_code: UNASSIGNED
+contract_or_award_authority: UNASSIGNED
+
+validation_state: "SOURCE-RECORDED / NOT INDEPENDENTLY PHYSICALLY VERIFIED"
+validation_methodology: >
+  Source-faithful registrar transcription from the user-supplied patent record.
+  Patent topology, component numbering, and operating description are preserved
+  as source disclosures. Any quantitative electrical reconstruction requires a
+  separate computational or laboratory validation record.
+known_uncertainty:
+  - "OCR artifacts are present in the supplied patent text."
+  - "Graph values and equation typography should be checked against the patent PDF before numerical modeling."
+  - "Patent-described behavior is source disclosure, not a modern performance certification."
+prohibited_claims:
+  - "Do not attribute US2212198A to NMG."
+  - "Do not equate US2212198A with N-TRANSFORMER™."
+  - "Do not infer telemetry, digital control, or Human-in-Command logic from the 1940 patent."
+  - "Do not treat historical patent disclosure as physical validation of a later architecture."
+
+source_provenance:
+  source_type: "USER-SUPPLIED-PATENT-TEXT"
+  source_identifier: "US2212198A"
+cryptographic_integrity: "PENDING-SOURCE-FILE-HASH"
+telemetry_return: "N/A"
+calibrated_measurement: "N/A"
+physical_event: "N/A"
+
+engine_contributors:
+  - provider: "OpenAI"
+    role: "Registrar structuring and authority separation only"
+human_authority: "Juan L. Noriega"
+
+supersedes: []
+superseded_by: []
+conflicts_with: []
+related_records:
+  - "US2143745 — Joseph G. Sola prior transformer patent referenced by source"
+notes:
+  - "The patent is a useful physical-architecture precedent for bounded output emerging from magnetic geometry and resonance."
+  - "Current Glassbox history master contains no exact US2212198A occurrence; no history event was fabricated."
