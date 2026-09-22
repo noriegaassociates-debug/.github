@@ -19,6 +19,7 @@ Patent records preserve technical lineage, claim boundaries, cited prior art, as
 | NMG-PAT-FR2604575A1-001 | FR2604575A1 | Ferromagnetic resonator having temperature compensation means which uses precoded compensation data | HISTORICAL | YIG / ferrimagnetic resonator temperature-compensation prior-art record |
 | NMG-PAT-EP2390292A1-001 | EP2390292A1 | Magnetic ink composition, magnetic ink character recognition process, and magnetically readable structures | HISTORICAL | Carbon-nanofoam magnetic print / MICR / readable-structure prior-art record |
 | NMG-PAT-US10540878B2-001 | US10540878B2 | Remote sensors for detecting alert conditions and notifying a central station | HISTORICAL | EFAN edge-sensor / local-processing / host-feedback prior-art record |
+| NMG-PAT-US2212198A-001 | US2212198A | Transformer of the constant or limited current type | HISTORICAL | Resonant / leakage-reactance limited-current transformer prior-art record |
 
 ### US2837483A
 
@@ -92,3 +93,16 @@ The patent-family record directly discloses the EFAN edge-hardware substrate: lo
 DUAL MODAL™ · EST. 2022 remains downstream architecture. RC-10…RC-24 assignments, Z_k evidence tuples, NExUS partitioning, and dual-engine isolation/arbiter functions are recorded as DUAL MODAL synthesis rather than retroactively attributed to the patent.
 
 The BOM intentionally leaves RC Cell values as `PENDING-DUAL-MODAL-MAPPING` where the source record does not itself define the RC assignment.
+
+
+### US2212198A
+
+Source record: `registrar/patents/US2212198A.yaml`
+
+Source-authority transformer BOM: `registrar/patents/US2212198A-SOURCE-AUTHORITY-BOM.md`
+
+The supplied patent record directly discloses the magnetic core, input/intermediate/load windings, resonant capacitor, leakage-reactance shunts, non-magnetic gaps, and selected auxiliary/autotransformer connections used to produce substantially constant or limited output current.
+
+The registrar preserves this as a physical transformer precedent. Its regulation emerges from electromagnetic geometry, resonance, controlled leakage, and load-dependent flux redistribution. DUAL MODAL™ / N-TRANSFORMER™ mappings remain downstream architecture and are not retroactively attributed to Sola's 1940 patent.
+
+The current Glassbox history master contains **0 exact occurrences** of `US2212198A`; therefore no browser-history event has been fabricated.
