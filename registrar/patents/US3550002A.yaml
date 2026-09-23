@@ -1,0 +1,177 @@
+registrar_id: NMG-PAT-US3550002A-001
+object_class: PATENT
+title: "Pulsar communication systems"
+canonical_name: "US3550002A — Pulsar communication systems"
+status: HISTORICAL
+created_at: "1969-02-25"
+observed_at: "2026-09-23"
+registered_at: "2026-09-23"
+
+source_or_origin: "User-supplied patent text and bibliographic record in current registrar session"
+upstream_author_or_institution:
+  inventors:
+    - "Arnold A. Shostak"
+    - "Ronald R. Troutman"
+  assignee_as_supplied:
+    - "United States of America as represented by the Secretary of the Navy"
+jurisdiction: "United States"
+publication_number: "US3550002A"
+application_number: "US802084A"
+filing_date: "1969-02-25"
+priority_date: "1969-02-25"
+grant_date: "1970-12-22"
+publication_date: "1970-12-22"
+anticipated_expiration_as_supplied: "1987-12-22"
+legal_status_as_supplied: "Expired - Lifetime"
+government_rights_statement_as_supplied: >
+  The invention may be manufactured and used by or for the Government of the
+  United States of America for governmental purposes without payment of royalties.
+
+classification_as_supplied:
+  primary: "G04G7/02"
+  text: "Synchronisation by radio"
+
+technical_scope:
+  source_summary: >
+    Communication and synchronization arrangements using periodic radio emissions
+    from pulsars as remote reference signals. The patent discloses use of a pulsar
+    signal to synchronize widely separated electronic devices and oscillators,
+    maintain interferometric phase coherence, establish remote time standards,
+    and encode/decode information for secure communications.
+  source_disclosed_functions:
+    - "Simultaneous observation of a selected pulsar at widely separated stations."
+    - "Receiver/amplifier chains at remote sites."
+    - "Control of local free-running oscillators using pulsar-derived timing."
+    - "Phase-coherent long-baseline interferometer operation."
+    - "Pulse multiplication/division to derive local clock signals."
+    - "Use of pulsar signals as a coding/masking input for transmitted information."
+    - "Correlation detection at the remote station using the same pulsar."
+    - "Compensation for finite propagation delay between terrestrial stations."
+  source_disclosed_components:
+    - "Steerable receiving antennas 1/2 or 10/11"
+    - "Receivers 14/15"
+    - "Amplifiers 16/17"
+    - "Local free-running oscillators 20/21"
+    - "Phase-processing / position-processing block 22"
+    - "Transmitting station 30"
+    - "Tracking antenna 31"
+    - "Message source 34"
+    - "Mixer 35"
+    - "Transmitter 36"
+    - "Transmit antenna 37"
+    - "Receiving station 40"
+    - "Tracking antenna 41"
+    - "Amplifier 43"
+    - "Correlation detector 44"
+    - "Receive antenna 46"
+
+source_physical_chain_synchronization: >
+  PULSAR EMISSION -> REMOTE ANTENNA -> RECEIVER -> AMPLIFIER ->
+  LOCAL OSCILLATOR PHASE CORRECTION -> SYNCHRONIZED LOCAL TIME / PHASE STANDARD
+
+source_physical_chain_secure_communication: >
+  PULSAR SIGNAL f1(t) + MESSAGE S(t) -> MIXER / ENCODING ->
+  TRANSMISSION -> REMOTE RECEIVER -> LOCAL PULSAR SIGNAL f2(t) ->
+  CORRELATION PROCESSING -> RECOVERED INFORMATION SIGNAL
+
+source_claim_boundary:
+  patent_claims_establish: >
+    The disclosed use of pulsar radio emissions for synchronization and for
+    encoding/decoding a communication signal as stated in the patent record.
+  patent_claims_do_not_establish:
+    - "Modern cryptographic security."
+    - "Current operational deployment."
+    - "NMG authorship."
+    - "DUAL MODAL™ authorship."
+    - "N-TRANSFORMER™ identity."
+    - "Current timing accuracy against modern atomic-clock or pulsar-timing systems."
+    - "Current military doctrine or classified implementation."
+    - "Navigation capability beyond the disclosed synchronization/interferometry context."
+
+historical_lineage_role:
+  proposed_role: "EXTRATERRESTRIAL REFERENCE / DISTRIBUTED SYNCHRONIZATION / CORRELATION-COMMUNICATION PRIOR-ART RECORD"
+  rationale: >
+    Relevant to historical reconstruction of architectures that use a naturally
+    occurring remote physical signal as a common reference across geographically
+    separated nodes. The patent provides a source precedent for reference-signal
+    acquisition, local oscillator correction, distributed phase coherence,
+    cross-site correlation, and source-referenced communication.
+  nmg_integration_state: "NOT YET MAPPED TO A SPECIFIC DUAL MODAL™ OR N-TRANSFORMER™ OBJECT"
+
+dual_modal_authority_split:
+  patent_source_authority:
+    - "Pulsar signal as remote physical reference."
+    - "Distributed observation at multiple sites."
+    - "Local oscillator correction using received pulsar timing."
+    - "Interferometric phase coherence."
+    - "Pulsar-referenced clock derivation."
+    - "Message encoding using pulsar signal."
+    - "Remote correlation using independently observed pulsar signal."
+    - "Propagation-delay compensation."
+  downstream_dual_modal_synthesis:
+    - "Any RC-cell assignment."
+    - "Any Z_k evidence tuple."
+    - "Any DUAL MODAL™ authority or provenance wrapper."
+    - "Any modern cryptographic trust model."
+    - "Any NExUS partitioning."
+    - "Any Human-in-Command governance layer."
+  rule: >
+    The patent supplies the physical/reference-signal architecture. Later DUAL
+    MODAL™ mappings may organize those functions, but must not retroactively
+    attribute DUAL MODAL abstractions to the Navy patent.
+
+history_dataset_linkage:
+  current_master_dataset_checked: "NMG_GLASSBOX_HISTORY_MASTER_2026-08-04_2026-08-26"
+  exact_identifier_occurrences_found: 0
+  rule: >
+    No browser-history event is created from patent registration alone. Chronology
+    must come from a working history export containing US3550002A or a verified
+    corresponding event.
+
+license_or_eula: "N/A"
+license_identifier: "N/A"
+legal_use_authority: "Public U.S. patent publication; government-use statement preserved as source text"
+sam_mapping: UNASSIGNED
+service_code: UNASSIGNED
+contract_or_award_authority: UNASSIGNED
+
+validation_state: "SOURCE-RECORDED / NOT INDEPENDENTLY PHYSICALLY VERIFIED"
+validation_methodology: >
+  Source-faithful registrar transcription from the user-supplied patent record.
+  Component numbers, signal flow, synchronization logic, and communication logic
+  are preserved as source disclosures. Any quantitative timing or communication
+  reconstruction requires a separate computational or experimental record.
+known_uncertainty:
+  - "OCR artifacts are present in the supplied patent text."
+  - "Historical pulsar periods and stated stability values should be checked against the original patent PDF before numerical reuse."
+  - "The source uses the term secure communication in a 1970 patent context; this is not equivalent to a modern cryptographic security claim."
+prohibited_claims:
+  - "Do not attribute US3550002A to NMG."
+  - "Do not treat the Department of the Navy as endorsing NMG."
+  - "Do not infer modern cryptographic security from correlation-based masking."
+  - "Do not infer current military deployment or classified use."
+  - "Do not convert historical government-use language into NMG contracting authority."
+
+source_provenance:
+  source_type: "USER-SUPPLIED-PATENT-TEXT"
+  source_identifier: "US3550002A"
+cryptographic_integrity: "PENDING-SOURCE-FILE-HASH"
+telemetry_return: "N/A"
+calibrated_measurement: "N/A"
+physical_event: "N/A"
+
+engine_contributors:
+  - provider: "OpenAI"
+    role: "Registrar structuring and authority separation only"
+human_authority: "Juan L. Noriega"
+
+supersedes: []
+superseded_by: []
+conflicts_with: []
+related_records:
+  - "US3137854A — cited prior art as supplied"
+  - "US3171126A — cited prior art as supplied"
+  - "US3263230A — cited prior art as supplied"
+notes:
+  - "The patent is a clean historical precedent for a shared external physical reference coordinating separated electronic nodes."
+  - "Current Glassbox master contains no exact US3550002A occurrence; no history event was fabricated."
