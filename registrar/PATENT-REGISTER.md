@@ -22,6 +22,7 @@ Patent records preserve technical lineage, claim boundaries, cited prior art, as
 | NMG-PAT-US2212198A-001 | US2212198A | Transformer of the constant or limited current type | HISTORICAL | Resonant / leakage-reactance limited-current transformer prior-art record |
 | NMG-PAT-US3550002A-001 | US3550002A | Pulsar communication systems | HISTORICAL | Extraterrestrial-reference synchronization / correlation-communication prior-art record |
 | NMG-PAT-US2873303A-001 | US2873303A | Photovoltaic device | HISTORICAL | Aluminum-antimonide p-n junction photovoltaic prior-art record |
+| NMG-PAT-US6967099B1-001 | US6967099B1 | Plant-fiber containing composition for anaerobic bioremediation | HISTORICAL | Plant-fiber / anaerobic bioremediation media prior-art record |
 
 ### US2837483A
 
@@ -134,3 +135,16 @@ The supplied Philips patent directly discloses a photovoltaic device formed from
 The registrar therefore treats US2873303A as an upstream semiconductor-energy-conversion source. DUAL MODAL™ or N-TRANSFORMER™ mappings remain downstream architecture and are not retroactively attributed to the patent.
 
 The current Glassbox history master contains **0 exact occurrences** of `US2873303A`; therefore no browser-history event has been fabricated.
+
+
+### US6967099B1
+
+Source record: `registrar/patents/US6967099B1.yaml`
+
+Source-authority bioremediation BOM: `registrar/patents/US6967099B1-SOURCE-AUTHORITY-BOM.md`
+
+The supplied patent directly discloses a plant-fiber-containing solid composition intended to combine contaminant sorption, anaerobic/redox conditioning, nutrient/electron-acceptor support, and microbial activity within contaminated soils, sediments, wastes, and waters. The registrar preserves the source-reported composition families, weight-percent ranges, optional inoculum, and compacted delivery forms as patent disclosures.
+
+The source is treated as an upstream environmental-remediation architecture. Any later NMG or MICROLYN™ mapping remains downstream and must not convert the patent's source claims into site-specific validation, regulatory approval, or deployment authority.
+
+The current Glassbox history master contains **0 exact occurrences** of `US6967099B1`; therefore no browser-history event has been fabricated.
