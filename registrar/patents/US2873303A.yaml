@@ -1,0 +1,156 @@
+registrar_id: NMG-PAT-US2873303A-001
+object_class: PATENT
+title: "Photovoltaic device"
+canonical_name: "US2873303A — Photovoltaic device"
+status: HISTORICAL
+created_at: "1954-11-01"
+observed_at: "2026-09-23"
+registered_at: "2026-09-23"
+
+source_or_origin: "User-supplied patent text and bibliographic record in current registrar session"
+upstream_author_or_institution:
+  inventor:
+    - "Edmund S. Rittner"
+  assignee_as_supplied:
+    - "US Philips Corp / North American Philips Company, Inc."
+jurisdiction: "United States"
+publication_number: "US2873303A"
+application_number: "US466010A"
+filing_date: "1954-11-01"
+priority_date: "1954-11-01"
+grant_date: "1959-02-10"
+publication_date: "1959-02-10"
+anticipated_expiration_as_supplied: "1976-02-10"
+legal_status_as_supplied: "Expired - Lifetime"
+
+classification_as_supplied:
+  primary: "H10F77/124"
+  text: "Active materials comprising only Group III-V materials, e.g. GaAs"
+
+technical_scope:
+  source_summary: >
+    Photovoltaic device using a p-n junction formed from p-type and n-type
+    aluminum antimonide (AlSb). One region is made thinner than the minority
+    carrier diffusion length and exposed to incident visible radiation. The
+    patent also describes anti-reflective coating, ohmic metal contacts, and
+    connection to an external electrical load.
+  source_disclosed_components:
+    - "n-type aluminum antimonide portion 1"
+    - "p-type aluminum antimonide portion 2"
+    - "light-receiving surface 3"
+    - "metal coatings / ohmic contacts 5 and 6"
+    - "anti-reflecting coating 9"
+    - "electrical load resistance 7"
+    - "conductors 8 and 9"
+  source_disclosed_functions:
+    - "Conversion of visible / solar radiation to electrical power."
+    - "Use of AlSb p-n junction rather than silicon, germanium, cadmium sulfide, selenium, or cuprous oxide."
+    - "Light-receiving semiconductor region thinner than the minority-carrier diffusion length."
+    - "Optional anti-reflective coating on illuminated surface."
+    - "Alternative embodiments with either p-type or n-type layer on the illuminated side."
+    - "Optional reverse-bias use for modulated-light photoelectric-cell operation."
+
+source_physical_chain: >
+  INCIDENT SOLAR / VISIBLE RADIATION -> AlSb LIGHT-RECEIVING REGION ->
+  PHOTOGENERATED MINORITY CARRIERS -> p-n JUNCTION SEPARATION ->
+  OHMIC CONTACTS -> EXTERNAL LOAD CURRENT
+
+source_claim_boundary:
+  patent_claims_establish: >
+    The disclosed use of p-type and n-type aluminum antimonide in intimate
+    contact as a photovoltaic p-n junction, including the thin illuminated
+    region and optional anti-reflection coating.
+  patent_claims_do_not_establish:
+    - "Modern photovoltaic conversion efficiency."
+    - "Current commercial viability of AlSb photovoltaics."
+    - "NMG authorship."
+    - "DUAL MODAL™ authorship."
+    - "N-TRANSFORMER™ identity."
+    - "Modern semiconductor process compatibility."
+    - "Independent replication of the patent's reported embodiment."
+    - "Superiority to current photovoltaic materials."
+
+historical_lineage_role:
+  proposed_role: "ALUMINUM-ANTIMONIDE p-n JUNCTION PHOTOVOLTAIC PRIOR-ART RECORD"
+  rationale: >
+    Relevant to historical reconstruction of direct physical energy conversion
+    in III-V semiconductor junctions. The source provides an early architecture
+    linking incident optical energy, minority-carrier transport, junction
+    separation, contact extraction, and electrical load delivery.
+  nmg_integration_state: "NOT YET MAPPED TO A SPECIFIC DUAL MODAL™ OR N-TRANSFORMER™ OBJECT"
+
+dual_modal_authority_split:
+  patent_source_authority:
+    - "AlSb p-type region"
+    - "AlSb n-type region"
+    - "p-n junction"
+    - "minority-carrier diffusion-length constraint"
+    - "light-receiving geometry"
+    - "anti-reflection coating"
+    - "ohmic contacts"
+    - "external load connection"
+  downstream_dual_modal_synthesis:
+    - "Any RC-cell assignment"
+    - "Any Z_k evidence tuple"
+    - "Any telemetry or digital monitoring architecture"
+    - "Any Human-in-Command governance"
+    - "Any NExUS partitioning"
+    - "Any N-TRANSFORMER™ designation"
+  rule: >
+    US2873303A supplies historical photovoltaic semiconductor topology and
+    physical energy-conversion logic. Later DUAL MODAL™ mappings may organize
+    those functions but must not retroactively attribute modern architectural
+    abstractions to the 1959 patent.
+
+history_dataset_linkage:
+  current_master_dataset_checked: "NMG_GLASSBOX_HISTORY_MASTER_2026-08-04_2026-08-26"
+  exact_identifier_occurrences_found: 0
+  rule: >
+    No browser-history event is created from source registration alone. A
+    history event requires a working history export containing US2873303A or a
+    verified corresponding event.
+
+license_or_eula: "N/A"
+license_identifier: "N/A"
+legal_use_authority: "Public patent publication as source reference; no separate NMG license asserted"
+sam_mapping: UNASSIGNED
+service_code: UNASSIGNED
+contract_or_award_authority: UNASSIGNED
+
+validation_state: "SOURCE-RECORDED / NOT INDEPENDENTLY PHYSICALLY VERIFIED"
+validation_methodology: >
+  Source-faithful registrar transcription from the user-supplied patent text.
+  Component numbers, semiconductor topology, diffusion-length condition, and
+  disclosed example values are preserved as source disclosures. Any numerical
+  device-performance reconstruction requires a separate computational or
+  laboratory validation record.
+known_uncertainty:
+  - "OCR artifacts are present in the supplied patent text."
+  - "Supplied scientific notation and doping values should be checked against the original patent PDF before quantitative reuse."
+  - "The modern CPC classification is retrospective metadata, not part of the original 1959 disclosure."
+prohibited_claims:
+  - "Do not attribute US2873303A to NMG."
+  - "Do not treat Philips as endorsing NMG."
+  - "Do not infer modern photovoltaic efficiency from the patent."
+  - "Do not equate this historical source with an N-TRANSFORMER™ implementation."
+
+source_provenance:
+  source_type: "USER-SUPPLIED-PATENT-TEXT"
+  source_identifier: "US2873303A"
+cryptographic_integrity: "PENDING-SOURCE-FILE-HASH"
+telemetry_return: "N/A"
+calibrated_measurement: "N/A"
+physical_event: "N/A"
+
+engine_contributors:
+  - provider: "OpenAI"
+    role: "Registrar structuring and authority separation only"
+human_authority: "Juan L. Noriega"
+
+supersedes: []
+superseded_by: []
+conflicts_with: []
+related_records: []
+notes:
+  - "The patent is an early source for AlSb photovoltaic junction architecture."
+  - "Current Glassbox history master contains no exact US2873303A occurrence; no history event was fabricated."
