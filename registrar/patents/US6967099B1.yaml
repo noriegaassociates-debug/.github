@@ -1,0 +1,252 @@
+registrar_id: NMG-PAT-US6967099B1-001
+object_class: PATENT
+title: "Plant-fiber containing composition for anaerobic bioremediation"
+canonical_name: "US6967099B1 — Plant-fiber containing composition for anaerobic bioremediation"
+status: HISTORICAL
+created_at: "1999-11-15"
+observed_at: "2026-09-23"
+registered_at: "2026-09-23"
+
+source_or_origin: "User-supplied patent text and bibliographic record in current registrar session"
+upstream_author_or_institution:
+  inventors:
+    - "Eric Christian Hince"
+    - "Jennifer Ann Singer"
+  assignee_as_supplied:
+    - "Geovation Technologies Inc"
+    - "Hince, Eric Christian, Mr. (later assignment as supplied)"
+jurisdiction: "United States"
+publication_number: "US6967099B1"
+application_number: "US09/440,340"
+filing_date: "1999-11-15"
+priority_dates_as_supplied:
+  - "1999-11-15"
+  - "2000-10-17"
+grant_date: "2005-11-22"
+publication_date: "2005-11-22"
+anticipated_expiration_as_supplied: "2019-11-15"
+legal_status_as_supplied: "Expired - Fee Related"
+
+classification_as_supplied:
+  primary: "C02F3/342"
+  text: "Biological treatment of water, waste water, or sewage characterised by the microorganisms used / enzymes used"
+
+technical_scope:
+  source_summary: >
+    Solid plant-fiber-containing composition and related methods for promoting
+    anaerobic bioremediation of hydrophobic and otherwise recalcitrant contaminants
+    in soils, sediments, wastes, sludges, ground water, surface water, and related
+    environmental media. The source describes plant-derived sorptive media,
+    electron-donor/electron-acceptor support, nutrient supply, anaerobic/redox
+    conditioning, and optional microbial inoculum.
+  source_disclosed_functions:
+    - "Promote solid-phase extraction, absorption, and adsorption of hydrophobic contaminants."
+    - "Create, enhance, and maintain anaerobic / reducing conditions."
+    - "Provide carbonaceous co-substrates and nutrients."
+    - "Provide electron acceptors for anaerobic microbial processes."
+    - "Support indigenous contaminant-degrading microorganisms."
+    - "Provide optional inoculum of legume-related, fiber-degrading, soil, and metal-reducing microorganisms."
+    - "Support in-situ or ex-situ treatment."
+    - "Permit pellet, tablet, capsule, granule, or briquette delivery forms."
+    - "Support delayed / sustained interaction in submerged sediment applications."
+
+source_disclosed_composition_architecture:
+  component_a:
+    role: "Primary nitrogen-fixing / leguminous or Phaeophyta plant material"
+    source_reported_range: "20–97 wt%"
+    examples_as_supplied:
+      - "Lespedeza spp."
+      - "Medicago spp. (alfalfa)"
+      - "Vicia spp."
+      - "Glycine spp."
+      - "Lathyrus spp."
+      - "Trifolium spp."
+      - "Sargassum spp."
+  component_b:
+    role: "Fibrous plant material for sorption / extraction"
+    source_reported_range: "3–80 wt%"
+    examples_as_supplied:
+      - "Gossypium-derived materials (cotton)"
+      - "Cannabacea-derived materials (hops/hemp)"
+  component_c:
+    role: "Ammonium-free inorganic nitrogen / electron acceptor"
+    source_reported_range: "0.5–30 wt%"
+    examples_as_supplied:
+      - "sodium nitrate"
+      - "sodium-potassium nitrate"
+      - "potassium nitrate"
+      - "ferric nitrate"
+  component_d:
+    role: "Complex biologically hydrolyzable phosphorus"
+    source_reported_range: "0.25–15 wt%"
+    examples_as_supplied:
+      - "ringed metaphosphates"
+      - "linear polyphosphates"
+  component_e:
+    role: "Chelating / acidifying agent"
+    source_reported_range: "0.01–5 wt%"
+    examples_as_supplied:
+      - "citric acid"
+      - "humic acid"
+      - "fulvic acid"
+      - "sodium citrate"
+      - "EDTA"
+      - "NTA (claim text)"
+  component_f:
+    role: "Optional microbial inoculum"
+    source_reported_range: "0.001–2 wt%"
+    examples_as_supplied:
+      - "Pseudomonas spp."
+      - "Rhizobium spp."
+      - "Bradyrhizobium spp."
+      - "Fibrobacter spp."
+      - "Clostridium spp."
+      - "Geobacter spp."
+      - "Thiobacillus spp."
+      - "plant-fiber degrading fungi"
+  component_g:
+    role: "Optional additional plant-fiber / carbohydrate source"
+    source_reported_range: "0.5–30 wt%"
+    examples_as_supplied:
+      - "Triticum-derived materials"
+      - "Aegilops-derived materials"
+      - "wheat"
+      - "oats"
+      - "barley"
+      - "rye"
+
+source_disclosed_environmental_state_chain: >
+  CONTAMINATED MEDIA -> PLANT-FIBER SORPTION / EXTRACTION ->
+  ANAEROBIC & REDUCING MICROENVIRONMENT -> MICROBIAL GROWTH / METABOLISM ->
+  BIODEGRADATION / TRANSFORMATION / DETOXIFICATION -> REDUCED CONTAMINANT BURDEN
+
+source_disclosed_target_classes:
+  - "Petroleum hydrocarbons"
+  - "Heavy hydrocarbons / PAHs"
+  - "Halogenated organic solvents"
+  - "Organochlorine pesticides including DDT and toxaphene"
+  - "PCBs"
+  - "Dioxins"
+  - "Certain oxidized inorganic contaminants as source-claimed"
+
+source_disclosed_delivery_modes:
+  - "In-situ mixing into soil / sediment"
+  - "Ex-situ treatment"
+  - "Pellets"
+  - "Granules"
+  - "Briquettes"
+  - "Tablets"
+  - "Capsules"
+  - "Submerged sediment application using density-adjusted forms"
+
+source_claim_boundary:
+  patent_claims_establish: >
+    The disclosed composition architecture, source-reported component ranges,
+    stated treatment mechanisms, and claimed anaerobic bioremediation methods.
+  patent_claims_do_not_establish:
+    - "Independent replication of all reported contaminant-removal performance."
+    - "Universal treatment effectiveness for all contaminants or sites."
+    - "Current regulatory approval."
+    - "NMG authorship."
+    - "DUAL MODAL™ authorship."
+    - "MICROLYN™ validation."
+    - "Current legal enforceability."
+    - "Suitability for uncontrolled field deployment without site-specific review."
+    - "That source-described microorganisms directly perform every claimed transformation."
+
+historical_lineage_role:
+  proposed_role: "PLANT-FIBER / ANAEROBIC BIOREMEDIATION MEDIA PRIOR-ART RECORD"
+  rationale: >
+    Relevant to historical reconstruction of environmental-remediation systems
+    in which a physical sorptive matrix, redox-state conditioning, nutrient
+    support, microbial ecology, and sustained-release form are intentionally
+    combined to alter contaminant availability and biological transformation.
+  nmg_integration_state: "NOT YET MAPPED TO A SPECIFIC NMG / MICROLYN™ ARCHITECTURE"
+
+authority_split:
+  patent_source_authority:
+    - "Plant-fiber sorptive media"
+    - "Anaerobic / reducing-condition objective"
+    - "Source-reported component ranges"
+    - "Nitrate / phosphate / chelator adjuncts"
+    - "Optional microbial inoculum"
+    - "Pellet / tablet / capsule / granule / briquette forms"
+    - "In-situ / ex-situ treatment concepts"
+    - "Submerged-sediment application concept"
+  downstream_nmg_synthesis:
+    - "Any MICROLYN™ layer assignment"
+    - "Any RC-cell assignment"
+    - "Any Z_k evidence tuple"
+    - "Any telemetry / sensor instrumentation architecture"
+    - "Any Human-in-Command governance"
+    - "Any deployment authority"
+    - "Any modern environmental compliance determination"
+  rule: >
+    US6967099B1 supplies the historical bioremediation composition and process
+    disclosure. Later NMG or MICROLYN™ mappings may organize or compare these
+    functions, but may not retroactively attribute modern architectural or
+    governance constructs to the source patent.
+
+history_dataset_linkage:
+  current_master_dataset_checked: "NMG_GLASSBOX_HISTORY_MASTER_2026-08-04_2026-08-26"
+  exact_identifier_occurrences_found: 0
+  rule: >
+    Patent registration does not create chronology. A historical browser event
+    requires a working history export containing US6967099B1 or a verified
+    corresponding source event.
+
+license_or_eula: "N/A"
+license_identifier: "N/A"
+legal_use_authority: "Public patent publication as source reference; no separate NMG license asserted"
+
+sam_mapping: UNASSIGNED
+service_code: UNASSIGNED
+contract_or_award_authority: UNASSIGNED
+
+validation_state: "SOURCE-RECORDED / NOT INDEPENDENTLY PHYSICALLY VERIFIED"
+validation_methodology: >
+  Source-faithful registrar transcription from the user-supplied patent record.
+  Composition ranges, organisms, treatment mechanisms, and example results are
+  preserved as source disclosures. Any site-specific efficacy, toxicity,
+  environmental fate, compliance, or field-performance conclusion requires a
+  separate validation record.
+known_uncertainty:
+  - "The patent contains source hypotheses about mechanisms and microbial roles that are not independently established by this registrar entry."
+  - "Reported pilot and microcosm results remain source claims unless independently reproduced."
+  - "Taxonomy and environmental-regulatory terminology may have changed since the patent's filing."
+  - "Current legal status is recorded as supplied and not independently adjudicated here."
+prohibited_claims:
+  - "Do not attribute US6967099B1 to NMG."
+  - "Do not treat Geovation Technologies or the inventors as endorsing NMG."
+  - "Do not treat the patent as current EPA approval or remediation authorization."
+  - "Do not infer site-specific treatment effectiveness from the patent alone."
+  - "Do not convert patent composition ranges into an operational field recipe without separate engineering and environmental review."
+
+source_provenance:
+  source_type: "USER-SUPPLIED-PATENT-TEXT"
+  source_identifier: "US6967099B1"
+cryptographic_integrity: "PENDING-SOURCE-FILE-HASH"
+telemetry_return: "N/A"
+calibrated_measurement: "N/A"
+physical_event: "N/A"
+
+engine_contributors:
+  - provider: "OpenAI"
+    role: "Registrar structuring and authority separation only"
+human_authority: "Juan L. Noriega"
+
+supersedes: []
+superseded_by: []
+conflicts_with: []
+related_records:
+  - "US6020185 — related Hince et al. anaerobic bioremediation lineage as cited in source"
+  - "US5902744 — composting prior art as cited in source"
+  - "US5100455 — plant-material bioremediation prior art as cited in source"
+  - "US5525139 — plant-material bioremediation prior art as cited in source"
+  - "US5609668 — plant-material bioremediation prior art as cited in source"
+  - "US5609667 — cotton-lint bioremediation prior art as cited in source"
+  - "US5411664 — fibrous organic matter remediation prior art as cited in source"
+  - "US5618427 — fibrous organic matter remediation prior art as cited in source"
+notes:
+  - "This source is particularly relevant to physical-media -> redox-state -> microbial-process -> contaminant-transformation lineage."
+  - "Current Glassbox history master contains no exact US6967099B1 occurrence; no history event was fabricated."
