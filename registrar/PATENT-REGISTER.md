@@ -21,6 +21,7 @@ Patent records preserve technical lineage, claim boundaries, cited prior art, as
 | NMG-PAT-US10540878B2-001 | US10540878B2 | Remote sensors for detecting alert conditions and notifying a central station | HISTORICAL | EFAN edge-sensor / local-processing / host-feedback prior-art record |
 | NMG-PAT-US2212198A-001 | US2212198A | Transformer of the constant or limited current type | HISTORICAL | Resonant / leakage-reactance limited-current transformer prior-art record |
 | NMG-PAT-US3550002A-001 | US3550002A | Pulsar communication systems | HISTORICAL | Extraterrestrial-reference synchronization / correlation-communication prior-art record |
+| NMG-PAT-US2873303A-001 | US2873303A | Photovoltaic device | HISTORICAL | Aluminum-antimonide p-n junction photovoltaic prior-art record |
 
 ### US2837483A
 
@@ -120,3 +121,16 @@ The supplied Navy patent directly discloses the use of pulsar radio emissions as
 The registrar preserves the core source distinction: the pulsar is an external physical reference; each site independently observes that reference; each local oscillator or communication chain acts on its own observation; and cross-site coherence or correlation arises from their relationship to the same source. DUAL MODAL™ mappings remain downstream architecture and are not retroactively attributed to the 1970 patent.
 
 The current Glassbox history master for 2026-08-04 through 2026-08-26 contains **0 exact occurrences** of `US3550002A`, so no browser-history event has been fabricated.
+
+
+### US2873303A
+
+Source record: `registrar/patents/US2873303A.yaml`
+
+Source-authority photovoltaic BOM: `registrar/patents/US2873303A-SOURCE-AUTHORITY-BOM.md`
+
+The supplied Philips patent directly discloses a photovoltaic device formed from p-type and n-type aluminum antimonide in intimate contact, with one illuminated semiconductor region thinner than the minority-carrier diffusion length. It also discloses ohmic contacts, an optional anti-reflection coating, an external load connection, and alternate illumination from either conductivity type.
+
+The registrar therefore treats US2873303A as an upstream semiconductor-energy-conversion source. DUAL MODAL™ or N-TRANSFORMER™ mappings remain downstream architecture and are not retroactively attributed to the patent.
+
+The current Glassbox history master contains **0 exact occurrences** of `US2873303A`; therefore no browser-history event has been fabricated.
