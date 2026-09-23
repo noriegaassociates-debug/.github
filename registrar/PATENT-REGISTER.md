@@ -20,6 +20,7 @@ Patent records preserve technical lineage, claim boundaries, cited prior art, as
 | NMG-PAT-EP2390292A1-001 | EP2390292A1 | Magnetic ink composition, magnetic ink character recognition process, and magnetically readable structures | HISTORICAL | Carbon-nanofoam magnetic print / MICR / readable-structure prior-art record |
 | NMG-PAT-US10540878B2-001 | US10540878B2 | Remote sensors for detecting alert conditions and notifying a central station | HISTORICAL | EFAN edge-sensor / local-processing / host-feedback prior-art record |
 | NMG-PAT-US2212198A-001 | US2212198A | Transformer of the constant or limited current type | HISTORICAL | Resonant / leakage-reactance limited-current transformer prior-art record |
+| NMG-PAT-US3550002A-001 | US3550002A | Pulsar communication systems | HISTORICAL | Extraterrestrial-reference synchronization / correlation-communication prior-art record |
 
 ### US2837483A
 
@@ -106,3 +107,16 @@ The supplied patent record directly discloses the magnetic core, input/intermedi
 The registrar preserves this as a physical transformer precedent. Its regulation emerges from electromagnetic geometry, resonance, controlled leakage, and load-dependent flux redistribution. DUAL MODAL™ / N-TRANSFORMER™ mappings remain downstream architecture and are not retroactively attributed to Sola's 1940 patent.
 
 The current Glassbox history master contains **0 exact occurrences** of `US2212198A`; therefore no browser-history event has been fabricated.
+
+
+### US3550002A
+
+Source record: `registrar/patents/US3550002A.yaml`
+
+Source-authority communication BOM: `registrar/patents/US3550002A-SOURCE-AUTHORITY-BOM.md`
+
+The supplied Navy patent directly discloses the use of pulsar radio emissions as a common physical reference for synchronizing widely separated electronic devices, disciplining local oscillators, maintaining long-baseline interferometric phase coherence, deriving clock signals, and performing correlation-based message transmission and recovery.
+
+The registrar preserves the core source distinction: the pulsar is an external physical reference; each site independently observes that reference; each local oscillator or communication chain acts on its own observation; and cross-site coherence or correlation arises from their relationship to the same source. DUAL MODAL™ mappings remain downstream architecture and are not retroactively attributed to the 1970 patent.
+
+The current Glassbox history master for 2026-08-04 through 2026-08-26 contains **0 exact occurrences** of `US3550002A`, so no browser-history event has been fabricated.
